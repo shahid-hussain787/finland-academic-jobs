@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open academic positions in Finland</title>
+<meta name="description" content="Open doctoral, postdoctoral and staff positions at Finnish universities, sorted by application deadline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#121A24;
+    --ink-soft:#5A6675;
+    --paper:#F6F7F9;
+    --surface:#FFFFFF;
+    --rule:#DCE1E8;
+    --cold:#1C4E88;
+    --urgent:#9E3B18;
+    --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --ink:#E6EAF0; --ink-soft:#97A3B2; --paper:#0E141C;
+      --surface:#161E29; --rule:#2A3542; --cold:#7FB0E8; --urgent:#E08562;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--sans); font-size:16px; line-height:1.5;
+  }
+  .wrap{max-width:60rem; margin:0 auto; padding:0 1.25rem}
 
+  header{padding:3rem 0 1.5rem}
+  h1{
+    font-size:clamp(1.6rem,4vw,2.3rem); font-weight:600;
+    letter-spacing:-0.02em; margin:0 0 .5rem; max-width:22ch;
+  }
+  .meta{color:var(--ink-soft); font-size:.9rem; margin:0}
+  .meta a{color:inherit}
+
+  /* Controls ----------------------------------------------------------- */
+  .controls{
+    position:sticky; top:0; z-index:5; background:var(--paper);
+    padding:.75rem 0 .9rem; border-bottom:1px solid var(--rule);
+  }
+  #search{
+    width:100%; padding:.65rem .8rem; font:inherit; color:inherit;
+    background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+  }
+  #search:focus-visible{outline:2px solid var(--cold); outline-offset:1px}
+  .chips{display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.6rem}
+  .chip{
+    font:inherit; font-size:.82rem; padding:.25rem .6rem; cursor:pointer;
+    background:transparent; color:var(--ink-soft);
+    border:1px solid var(--rule); border-radius:999px;
+  }
+  .chip[aria-pressed="true"]{
+    background:var(--cold); border-color:var(--cold); color:#fff;
+  }
+  @media (prefers-color-scheme:dark){ .chip[aria-pressed="true"]{color:#0E141C} }
+  .chip:focus-visible{outline:2px solid var(--cold); outline-offset:2px}
+  .chips-label{
+    font-size:.82rem; color:var(--ink-soft); align-self:center; margin-right:.2rem;
+  }
+
+  /* Results ------------------------------------------------------------ */
+  #count{font-size:.88rem; color:var(--ink-soft); padding:1rem 0 .25rem}
+  .band{margin:1.5rem 0 0}
+  .band > h2{
+    font-size:.95rem; font-weight:600; margin:0 0 .25rem;
+    padding-bottom:.4rem; border-bottom:1px solid var(--rule);
+  }
+  .band.now > h2{color:var(--urgent)}
+
+  .job{
+    display:grid; grid-template-columns:4.5rem 1fr; gap:0 1rem;
+    padding:.85rem 0; border-bottom:1px solid var(--rule);
+  }
+  .days{
+    font-family:var(--mono); font-size:.82rem; color:var(--ink-soft);
+    font-variant-numeric:tabular-nums; padding-top:.15rem; white-space:nowrap;
+  }
+  .now .days{color:var(--urgent); font-weight:500}
+  .job h3{margin:0; font-size:1rem; font-weight:500; line-height:1.35}
+  .job h3 a{color:inherit; text-decoration:none; border-bottom:1px solid var(--rule)}
+  .job h3 a:hover,.job h3 a:focus-visible{border-color:var(--cold); color:var(--cold)}
+  .where{font-size:.85rem; color:var(--ink-soft); margin:.2rem 0 0}
+  .uni{color:var(--cold)}
+
+  .notice{
+    background:var(--surface); border:1px solid var(--rule);
+    border-left:3px solid var(--urgent); border-radius:3px;
+    padding:.8rem 1rem; margin:1.25rem 0; font-size:.88rem;
+  }
+  .notice p{margin:0 0 .3rem}
+  .notice ul{margin:.3rem 0 0; padding-left:1.1rem; color:var(--ink-soft)}
+
+  .empty{padding:3rem 0; color:var(--ink-soft)}
+  footer{
+    margin-top:4rem; padding:1.5rem 0 3rem; border-top:1px solid var(--rule);
+    font-size:.85rem; color:var(--ink-soft);
+  }
+  footer a{color:var(--cold)}
+  @media (prefers-reduced-motion:no-preference){
+    .job{transition:opacity .12s ease}
+  }
+  @media (max-width:34rem){
+    .job{grid-template-columns:1fr; gap:.2rem}
+    .days{padding-top:0}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Open academic positions in Finland</h1>
+    <p class="meta" id="status">Loading positions…</p>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <label for="search" class="visually-hidden" style="position:absolute;left:-9999px">Search positions</label>
+    <input id="search" type="search" placeholder="Search by title, field or department" autocomplete="off">
+    <div class="chips" id="cat-chips"><span class="chips-label">Role</span></div>
+    <div class="chips" id="uni-chips"><span class="chips-label">University</span></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div id="notices"></div>
+  <p id="count"></p>
+  <div id="results"></div>
+</main>
+
+<footer class="wrap">
+  <p>Positions are collected automatically from each university's own listing page once a day.
+     Always check the original posting before applying — deadlines and requirements change,
+     and some positions are only advertised in Finnish.</p>
+  <p id="sources"></p>
+</footer>
+
+<script>
+const state = { jobs: [], query: "", cats: new Set(), unis: new Set() };
+const fmt = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+function daysUntil(iso) {
+  if (!iso) return null;
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.round((new Date(iso + "T00:00:00") - today) / 86400000);
+}
+
+function band(d) {
+  if (d === null) return { key: "rolling", label: "No deadline given", order: 4 };
+  if (d <= 7)  return { key: "now",   label: "Closing within a week", order: 0, urgent: true };
+  if (d <= 21) return { key: "soon",  label: "Closing in two to three weeks", order: 1 };
+  if (d <= 60) return { key: "later", label: "Closing within two months", order: 2 };
+  return { key: "far", label: "Later than two months", order: 3 };
+}
+
+function makeChips(el, values, set) {
+  values.forEach(v => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = v;
+    b.setAttribute("aria-pressed", "false");
+    b.onclick = () => {
+      set.has(v) ? set.delete(v) : set.add(v);
+      b.setAttribute("aria-pressed", set.has(v));
+      render();
+    };
+    el.appendChild(b);
+  });
+}
+
+function matches(j) {
+  if (state.cats.size && !state.cats.has(j.category)) return false;
+  if (state.unis.size && !state.unis.has(j.university_short)) return false;
+  if (state.query) {
+    const hay = (j.title + " " + (j.unit || "") + " " + j.university).toLowerCase();
+    if (!state.query.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function render() {
+  const shown = state.jobs.filter(matches);
+  const results = document.getElementById("results");
+  const count = document.getElementById("count");
+  results.innerHTML = "";
+
+  count.textContent = shown.length === state.jobs.length
+    ? `${shown.length} open positions`
+    : `${shown.length} of ${state.jobs.length} positions`;
+
+  if (!shown.length) {
+    results.innerHTML = '<p class="empty">Nothing matches those filters. Try clearing one.</p>';
+    return;
+  }
+
+  const groups = new Map();
+  shown.forEach(j => {
+    const d = daysUntil(j.deadline), b = band(d);
+    if (!groups.has(b.key)) groups.set(b.key, { ...b, jobs: [] });
+    groups.get(b.key).jobs.push({ ...j, days: d });
+  });
+
+  [...groups.values()].sort((a,b) => a.order - b.order).forEach(g => {
+    const sec = document.createElement("section");
+    sec.className = "band" + (g.urgent ? " now" : "");
+    const h = document.createElement("h2");
+    h.textContent = `${g.label} · ${g.jobs.length}`;
+    sec.appendChild(h);
+
+    g.jobs.forEach(j => {
+      const row = document.createElement("article");
+      row.className = "job";
+      const days = j.days === null ? "—"
+        : j.days === 0 ? "today"
+        : j.days === 1 ? "1 day"
+        : `${j.days} days`;
+      const where = [j.university_short, j.unit].filter(Boolean);
+      row.innerHTML =
+        `<div class="days">${days}</div><div>` +
+        `<h3><a href="${j.url}" rel="noopener">${esc(j.title)}</a></h3>` +
+        `<p class="where"><span class="uni">${esc(where[0])}</span>` +
+        (where[1] ? ` · ${esc(where[1])}` : "") +
+        (j.deadline ? ` · closes ${fmt.format(new Date(j.deadline + "T00:00:00"))}` : "") +
+        `</p></div>`;
+      sec.appendChild(row);
+    });
+    results.appendChild(sec);
+  });
+}
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+}
+
+fetch("jobs.json?t=" + Date.now())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    state.jobs = data.jobs || [];
+
+    const when = new Date(data.generated_at);
+    const hrs = Math.round((Date.now() - when) / 3600000);
+    const ok = (data.sources || []).filter(s => s.status === "ok").length;
+    document.getElementById("status").textContent =
+      `${data.job_count} positions from ${ok} universities · last checked ` +
+      (hrs < 1 ? "less than an hour ago" : hrs < 48 ? `${hrs} hours ago` : `${Math.round(hrs/24)} days ago`);
+
+    const broken = (data.sources || []).filter(s => s.status === "error");
+    const unverified = (data.sources || []).filter(s => s.status === "ok" && s.verified === false);
+    if (broken.length || hrs > 72) {
+      const n = document.createElement("div");
+      n.className = "notice";
+      let html = "";
+      if (hrs > 72) html += "<p>This list hasn't updated in over three days, so it may be out of date.</p>";
+      if (broken.length) {
+        html += "<p>Couldn't read these sites on the last run — check them directly:</p><ul>" +
+          broken.map(s => `<li><a href="${s.url}" rel="noopener">${esc(s.name)}</a></li>`).join("") + "</ul>";
+      }
+      n.innerHTML = html;
+      document.getElementById("notices").appendChild(n);
+    }
+    if (unverified.length) {
+      const n = document.createElement("div");
+      n.className = "notice";
+      n.innerHTML = "<p>These sources use a rough parser and may miss positions or show odd titles:</p><ul>" +
+        unverified.map(s => `<li>${esc(s.name)}</li>`).join("") + "</ul>";
+      document.getElementById("notices").appendChild(n);
+    }
+
+    document.getElementById("sources").innerHTML = "Sources: " +
+      (data.sources || []).map(s => `<a href="${s.url}" rel="noopener">${esc(s.short)}</a>`).join(", ");
+
+    const cats = [...new Set(state.jobs.map(j => j.category))].sort();
+    const unis = [...new Set(state.jobs.map(j => j.university_short))].sort();
+    makeChips(document.getElementById("cat-chips"), cats, state.cats);
+    makeChips(document.getElementById("uni-chips"), unis, state.unis);
+
+    render();
+  })
+  .catch(() => {
+    document.getElementById("status").textContent =
+      "Couldn't load the position data. The daily update may not have run yet.";
+  });
+
+document.getElementById("search").addEventListener("input", e => {
+  state.query = e.target.value.trim().toLowerCase();
+  render();
+});
+</script>
+</body>
+</html>
