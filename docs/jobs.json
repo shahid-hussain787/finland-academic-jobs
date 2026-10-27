@@ -1,6 +1,639 @@
 {
- "generated_at": "1970-01-01T00:00:00+00:00",
- "job_count": 0,
- "sources": [],
- "jobs": []
+ "generated_at": "2026-10-27T14:34:14+00:00",
+ "job_count": 62,
+ "sources": [
+  {
+   "name": "University of Oulu",
+   "short": "Oulu",
+   "url": "https://oulunyliopisto.varbi.com/en/",
+   "status": "ok",
+   "count": 16,
+   "verified": true
+  },
+  {
+   "name": "Aalto University",
+   "short": "Aalto",
+   "url": "https://www.aalto.fi/en/open-positions",
+   "status": "ok",
+   "count": 24,
+   "verified": true
+  },
+  {
+   "name": "University of Vaasa",
+   "short": "Vaasa",
+   "url": "https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en",
+   "status": "error",
+   "count": 0,
+   "error": "ValueError: no table rows parsed — rekrytointi layout may have changed",
+   "verified": true
+  },
+  {
+   "name": "Åbo Akademi University",
+   "short": "Åbo Akademi",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en",
+   "status": "ok",
+   "count": 5,
+   "verified": true
+  },
+  {
+   "name": "Tampere University",
+   "short": "Tampere",
+   "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
+   "status": "ok",
+   "count": 6,
+   "verified": true
+  },
+  {
+   "name": "University of Eastern Finland",
+   "short": "UEF",
+   "url": "https://www.uef.fi/en/open-positions",
+   "status": "ok",
+   "count": 10,
+   "verified": true
+  },
+  {
+   "name": "University of Turku",
+   "short": "Turku",
+   "url": "https://www.utu.fi/en/university/come-work-with-us/open-vacancies",
+   "status": "ok",
+   "count": 0,
+   "verified": false
+  },
+  {
+   "name": "University of Helsinki",
+   "short": "Helsinki",
+   "url": "https://www.helsinki.fi/en/about-us/careers/open-positions",
+   "status": "ok",
+   "count": 0,
+   "verified": false
+  },
+  {
+   "name": "University of Jyväskylä",
+   "short": "Jyväskylä",
+   "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
+   "status": "ok",
+   "count": 1,
+   "verified": false
+  }
+ ],
+ "jobs": [
+  {
+   "title": "Doctoral Researcher in Psychology",
+   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia/8dRoGG?lang=en",
+   "unit": null,
+   "deadline": "2026-10-27",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Trainee, the Finnish University Partnership for International Development (UniPID)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:979246/type:job/where:4/apply:1",
+   "unit": "The Faculty of Social Sciences and Business Studies, Joensuu",
+   "deadline": "2026-10-28",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Other"
+  },
+  {
+   "title": "Doctoral Researcher/Project Researcher, Molecular Physiology",
+   "url": "https://uef.varbi.com/en/what:job/jobID:969768/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, A.I. Virtanen Institute, Kuopio",
+   "deadline": "2026-10-29",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher in Real Estate Economics",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-real-estate-economics-1",
+   "unit": null,
+   "deadline": "2026-10-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher position in Chemical Engineering",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-position-in-chemical-engineering",
+   "unit": null,
+   "deadline": "2026-10-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher, Global Palestine and Environmental Violence (‘GloPal’ and ‘HOMCRI’-projects) / Tutkijatohtori, Globaali Palestiina ja ympäristöllisen väkivallan muodot",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3184",
+   "unit": null,
+   "deadline": "2026-10-30",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Universitetslärare i engelska, Utbildningsservice",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "unit": null,
+   "deadline": "2026-10-30",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Other"
+  },
+  {
+   "title": "Doctoral Researcher in Speech and Language Technology",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-speech-and-language-technology",
+   "unit": null,
+   "deadline": "2026-10-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher in Trustworthy Machine Learning",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-trustworthy-machine-learning-0",
+   "unit": null,
+   "deadline": "2026-10-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher, SmartSpaces project, Centre for Wireless Communications",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:975797/",
+   "unit": "Faculty of Information Technology and Electrical Engineering, Centre for Wireless Communications",
+   "deadline": "2026-10-31",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral and postdoctoral positions in hybrid magnonics-photonics",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-and-postdoctoral-positions-in-hybrid-magnonics-photonics",
+   "unit": null,
+   "deadline": "2026-10-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher in Photomemristor Arrays for Optogenetic-Neuromorphic Interfaces",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-photomemristor-arrays-for-optogenetic-neuromorphic-interfaces",
+   "unit": null,
+   "deadline": "2026-10-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher in Speech and Language Technology",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-speech-and-language-technology",
+   "unit": null,
+   "deadline": "2026-10-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Biostatistician, Lifecourse Medicine, Faculty of Medicine",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:964775/",
+   "unit": "Faculty of Medicine, Clinical Medicine",
+   "deadline": "2026-11-01",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Projektisuunnittelija",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:973275/",
+   "unit": "Humanistinen tiedekunta, Giellagas-instituutti",
+   "deadline": "2026-11-01",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Tutkijatohtori, Giellagas-instituutti",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:973271/",
+   "unit": "Humanistinen tiedekunta, Giellagas-instituutti",
+   "deadline": "2026-11-01",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Yliopisto-opettaja, kauppatieteet",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:970669/",
+   "unit": "Oulun yliopiston kauppakorkeakoulu",
+   "deadline": "2026-11-01",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Teaching"
+  },
+  {
+   "title": "Koulunkäynninohjaaja, Oulun normaalikoulu",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:979950/",
+   "unit": "Kasvatustieteiden ja psykologian tiedekunta, Oulun yliopiston harjoittelukoulu",
+   "deadline": "2026-11-02",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Valintasihteereitä opiskelijavalintojen tehtäviin",
+   "url": "https://www.aalto.fi/en/open-positions/valintasihteereita-opiskelijavalintojen-tehtaviin",
+   "unit": null,
+   "deadline": "2026-11-02",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
+   "title": "Verksamhetsledare för Skolresurs",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "unit": null,
+   "deadline": "2026-11-02",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Other"
+  },
+  {
+   "title": "Staff Scientist for OtaNano Quantum-Computing Infrastructure",
+   "url": "https://www.aalto.fi/en/open-positions/staff-scientist-for-otanano-quantum-computing-infrastructure",
+   "unit": null,
+   "deadline": "2026-11-04",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Researcher"
+  },
+  {
+   "title": "Doctoral researcher, chemical upgrading of polyphenols for advanced functional materials",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-chemical-upgrading-of-polyphenols-for-advanced-functional-materials",
+   "unit": null,
+   "deadline": "2026-11-05",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Tenure track -tehtävä, mediatutkimus (Apulaisprofessori tai Professori) / Tenure track position (Assistant Professor, Associate Professor or Professor) of Media Studies",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3179",
+   "unit": null,
+   "deadline": "2026-11-05",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Postdoctoral Researcher, Mathematical Sciences, Faculty of Science",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:972516/",
+   "unit": "Faculty of Science, Mathematical Sciences",
+   "deadline": "2026-11-08",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Sales assistant, Aalto University Shop",
+   "url": "https://www.aalto.fi/en/open-positions/sales-assistant-aalto-university-shop",
+   "unit": null,
+   "deadline": "2026-11-08",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
+   "title": "Doctoral researcher in the Study of Religions",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "unit": null,
+   "deadline": "2026-11-09",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher (6 positions)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:976051/type:job/where:4/apply:1",
+   "unit": "the Faculty of Social Sciences and Business Studies, Joensuu, Kuopio",
+   "deadline": "2026-11-10",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Associate Professor, AI Technologies and Industrial Applications",
+   "url": "https://uef.varbi.com/en/what:job/jobID:970220/type:job/where:4/apply:1",
+   "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
+   "deadline": "2026-11-11",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher / Master's Thesis Worker - VIcTOR - Virtual Torque Sensing for Maritime Powertrains",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-masters-thesis-worker-victor-virtual-torque-sensing-for-maritime-powertrains",
+   "unit": null,
+   "deadline": "2026-11-11",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Teaching Coordinator",
+   "url": "https://uef.varbi.com/en/what:job/jobID:983060/type:job/where:4/apply:1",
+   "unit": "The Faculty of Social Sciences and Business Studies, Law School, Joensuu",
+   "deadline": "2026-11-12",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Other"
+  },
+  {
+   "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "unit": null,
+   "deadline": "2026-11-13",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Other"
+  },
+  {
+   "title": "Course assistants for the School of Engineering for the 2027 spring semester",
+   "url": "https://www.aalto.fi/en/open-positions/course-assistants-for-the-school-of-engineering-for-the-2027-spring-semester",
+   "unit": null,
+   "deadline": "2026-11-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
+   "title": "Doctoral Researcher (PhD student) 2 positions",
+   "url": "https://uef.varbi.com/en/what:job/jobID:981362/type:job/where:4/apply:1",
+   "unit": "The Faculty of Social Sciences and Business Studies, Department of Geographical and Historical Studies, Joensuu",
+   "deadline": "2026-11-15",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher in Occupational Cancer Epidemiology (NordExCan) / Väitöskirjatutkija NordExCan-tutkimushankkeeseen",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3202",
+   "unit": null,
+   "deadline": "2026-11-15",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher, Ecology and Genetics",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:968629/",
+   "unit": "Faculty of Science, Ecology and Genetics",
+   "deadline": "2026-11-15",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher, Ecology and Genetics",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:968327/",
+   "unit": "Faculty of Science, Ecology and Genetics",
+   "deadline": "2026-11-15",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Doctoral Researcher (PhD Student), Finite Element Technology for Smooth Problems",
+   "url": "https://uef.varbi.com/en/what:job/jobID:978702/type:job/where:4/apply:1",
+   "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
+   "deadline": "2026-11-16",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Projektikoordinaattori (EU-rahoituksen tuki)",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:970765/",
+   "unit": "Palvelu- ja erillisyksiköt, Tutkimus- ja projektipalvelut",
+   "deadline": "2026-11-16",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Tenure track in Computational Physics (Assistant/Associate Professor or Professor), 2 positions / Laskennallisen fysiikan tenure track (Apulaisprofessori tai professori), 2 tehtävää",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3187",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Tenure track in Sustainable Polymeric Materials Processing (Assistant/Associate Professor or Professor) / Kestävien polymeerimateriaalien prosessoinnin tenure track (Apulaisprofessori tai professori)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3191",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher (PhD Student), 3 positions, Development of Data Science and AI for Spatial Data",
+   "url": "https://uef.varbi.com/en/what:job/jobID:978704/type:job/where:4/apply:1",
+   "unit": "The Faculty of Science, Forestry and Technology, School of Computing, Kuopio",
+   "deadline": "2026-11-17",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Professor/Associate Professor (Tenure Track), Arts and Skills Education",
+   "url": "https://uef.varbi.com/en/what:job/jobID:963628/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, School of Applied Educational Science and Teacher Education, Joensuu",
+   "deadline": "2026-11-17",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Professor"
+  },
+  {
+   "title": "Professor/Associate Professor, Forest-based Products and Services",
+   "url": "https://uef.varbi.com/en/what:job/jobID:970155/type:job/where:4/apply:1",
+   "unit": "The Faculty of Science, Forestry and Technology, School of Forest Sciences, Joensuu",
+   "deadline": "2026-11-18",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Professor"
+  },
+  {
+   "title": "Suunnittelija (opetuksen digitaaliset ratkaisut)",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:981382/",
+   "unit": "Palvelu- ja erillisyksiköt, Opetuksen tuen ja kehittämisen keskus (OPE)",
+   "deadline": "2026-11-18",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Doctoral Researcher, sustainability of Power-to-X (PtX) value chains",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-sustainability-of-power-to-x-ptx-value-chains",
+   "unit": null,
+   "deadline": "2026-11-22",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "President, Aalto University",
+   "url": "https://www.aalto.fi/en/open-positions/president-aalto-university",
+   "unit": null,
+   "deadline": "2026-11-23",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher, Environmental Social Sciences and Digital Infrastructures",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974579/",
+   "unit": "Faculty of Education and Psychology, General Education",
+   "deadline": "2026-11-26",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Assistant Professor (Tenure-track) in Economics / Apulaisprofessori (tenure track), taloustiede",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3205",
+   "unit": null,
+   "deadline": "2026-11-27",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher in Anthropology (Marie-Curie Doctoral Network MITIME)",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:977989/",
+   "unit": "Faculty of Humanities, History, Culture and Communication Studies",
+   "deadline": "2026-11-27",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Assistant Professor, Power Electronics",
+   "url": "https://www.aalto.fi/en/open-positions/assistant-professor-power-electronics",
+   "unit": null,
+   "deadline": "2026-11-29",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher, Space Physics, Sodankylä Geophysical Observatory",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:982150/",
+   "unit": "Service and separate units, Sodankylä Geophysical Observatory",
+   "deadline": "2026-11-30",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral researcher and/or Post-doctoral researcher on compound semiconductor energy converters",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Tenure Track Assistant Professor in Inorganic Material Chemistry, Faculty of Technology",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:975788/",
+   "unit": "Faculty of Technology, Sustainable Chemistry",
+   "deadline": "2026-11-30",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Professor"
+  },
+  {
+   "title": "University Lecturer or Senior University Lecturer, Wood Science",
+   "url": "https://www.aalto.fi/en/open-positions/university-lecturer-or-senior-university-lecturer-wood-science",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Teaching"
+  },
+  {
+   "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network",
+   "unit": null,
+   "deadline": "2026-12-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral researcher in Cloud and Network Computing",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-cloud-and-network-computing",
+   "unit": null,
+   "deadline": "2026-12-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral researcher in the field of superconducting quantum circuits",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-the-field-of-superconducting-quantum-circuits",
+   "unit": null,
+   "deadline": "2026-12-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Visiting Researcher in Aalto University School of Arts, Design and Architecture (unfunded position)",
+   "url": "https://www.aalto.fi/en/open-positions/visiting-researcher-in-aalto-university-school-of-arts-design-and-architecture-unfunded-position",
+   "unit": null,
+   "deadline": "2027-12-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Researcher"
+  },
+  {
+   "title": "Doctoral Researcher in Educational Technology at the University of Oulu (Finland)",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974339/",
+   "unit": "Faculty of Education and Psychology",
+   "deadline": null,
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Open application for Aalto University",
+   "url": "https://www.aalto.fi/en/open-positions/open-application-for-aalto-university",
+   "unit": null,
+   "deadline": null,
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  }
+ ]
 }
