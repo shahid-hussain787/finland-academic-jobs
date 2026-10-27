@@ -1,0 +1,94 @@
+# Each entry describes one university's job listing page and how to read it.
+#
+# parser:    which function in scrapers.py handles this site
+# verified:  true  = parser confirmed against the live page
+#            false = best guess, check the first debug run before trusting it
+#
+# To add a university: copy a block, change name/url, pick the closest parser.
+# If none fit, use "generic" and fill in the selectors.
+
+universities:
+
+  - name: University of Oulu
+    short: Oulu
+    url: https://oulunyliopisto.varbi.com/en/
+    parser: varbi
+    verified: true
+
+  - name: Aalto University
+    short: Aalto
+    url: https://www.aalto.fi/en/open-positions
+    parser: aalto
+    verified: true
+    max_pages: 5
+
+  - name: University of Vaasa
+    short: Vaasa
+    url: https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en
+    parser: rekrytointi
+    verified: true
+
+  - name: Åbo Akademi University
+    short: Åbo Akademi
+    url: https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en
+    parser: rekrytointi
+    verified: true
+
+  - name: Tampere University
+    short: Tampere
+    url: https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university
+    parser: tampere
+    verified: true
+
+  - name: University of Eastern Finland
+    short: UEF
+    url: https://www.uef.fi/en/open-positions
+    parser: uef
+    verified: true
+
+  # --- Not yet confirmed. Run `python scrape.py --debug --only turku` etc.
+  # --- and adjust the selectors below until the output looks right.
+
+  - name: University of Turku
+    short: Turku
+    url: https://www.utu.fi/en/university/come-work-with-us/open-vacancies
+    parser: generic
+    verified: false
+    generic:
+      item_selector: "main a"
+      title_selector: null          # null = use the link's own text
+      link_attr: href
+      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+
+  - name: University of Helsinki
+    short: Helsinki
+    url: https://www.helsinki.fi/en/about-us/careers/open-positions
+    parser: generic
+    verified: false
+    generic:
+      item_selector: "main a"
+      title_selector: null
+      link_attr: href
+      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+
+  - name: University of Jyväskylä
+    short: Jyväskylä
+    url: https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla
+    parser: generic
+    verified: false
+    generic:
+      item_selector: "main a"
+      title_selector: null
+      link_attr: href
+      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+
+# Positions whose title matches any of these are tagged, so the page can
+# filter by category. Order matters: first match wins.
+categories:
+  # Postdoc is tested first on purpose: "doctoral" is a substring of
+  # "postdoctoral", so the order here is load-bearing.
+  Postdoc: "(?i)(post-?\\s?doc|tutkijatohtori)"
+  Doctoral: "(?i)((?<!post)(?<!post-)(?<!post )doctoral|\\bphd\\b|väitöskirja|tohtorikoulutettava)"
+  Professor: "(?i)(professor|professori|tenure track)"
+  Researcher: "(?i)(researcher|tutkija|scientist)"
+  Teaching: "(?i)(lecturer|teacher|lehtori|opettaja)"
