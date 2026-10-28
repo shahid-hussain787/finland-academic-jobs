@@ -2,8 +2,8 @@ name: Update positions
 
 on:
   schedule:
-    # 05:10 UTC daily — early morning in Finland, before anyone checks.
-    # GitHub runs scheduled jobs on a shared queue, so expect some drift.
+    # 05:10 UTC daily. GitHub runs scheduled jobs on a shared queue, so
+    # expect drift of up to an hour and the occasional skipped day.
     - cron: "10 5 * * *"
   workflow_dispatch:        # lets you run it by hand from the Actions tab
   push:
@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  issues: write             # needed to open the alert issue
 
 concurrency:
   group: scrape
@@ -47,3 +48,44 @@ jobs:
             git commit -m "Update positions ($(date -u +%Y-%m-%d))"
             git push
           fi
+
+      - name: Open an issue if a source is failing
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ ! -s failures.txt ]; then
+            echo "Every source worked."
+            exit 0
+          fi
+
+          TITLE="A job source has stopped working"
+
+          # If an alert issue is already open, stay quiet. Otherwise a site
+          # that stays broken would email you every single morning.
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" \
+                       --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "Issue #$EXISTING is already open; not filing another."
+            exit 0
+          fi
+
+          {
+            echo "The daily run couldn't read one or more university job pages."
+            echo
+            echo '```'
+            cat failures.txt
+            echo '```'
+            echo
+            echo "Open the page yourself and see what changed. If the university"
+            echo "has moved to a new recruitment system, add the new address to"
+            echo "the top of that university's \`urls:\` list in \`universities.yml\`"
+            echo "and leave the old one underneath."
+            echo
+            echo "Full log: $RUN_URL"
+            echo
+            echo "Close this issue once it's fixed, so the next failure can alert you."
+          } > body.md
+
+          gh issue create --title "$TITLE" --body-file body.md
