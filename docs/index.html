@@ -251,6 +251,7 @@ fetch("jobs.json?t=" + Date.now())
       const d = daysUntil(j.deadline);
       return d === null || d >= 0;
     });
+
     const when = new Date(data.generated_at);
     const hrs = Math.round((Date.now() - when) / 3600000);
     const ok = (data.sources || []).filter(s => s.status === "ok").length;
