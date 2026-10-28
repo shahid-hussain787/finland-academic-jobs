@@ -23,6 +23,7 @@ from scrapers import PARSERS, aalto_next_page
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "universities.yml"
 OUTPUT = ROOT / "docs" / "jobs.json"
+FAILURES = ROOT / "failures.txt"   # read by the workflow to raise an alert
 
 HEADERS = {
     "User-Agent": (
@@ -50,17 +51,11 @@ def categorise(title, categories):
     return "Other"
 
 
-def scrape_one(uni, categories, debug=False):
-    parser_name = uni.get("parser", "generic")
-    parser = PARSERS.get(parser_name)
-    if parser is None:
-        raise ValueError(f"unknown parser '{parser_name}'")
-
-    url = uni["url"]
+def scrape_url(url, uni, parser, parser_name):
+    """Fetch one URL (following Aalto's pagination) and parse it."""
     html = fetch(url)
     jobs = parser(html, url, uni)
 
-    # Aalto is the only paginated source so far.
     if parser_name == "aalto":
         for page in range(1, uni.get("max_pages", 5)):
             next_url = aalto_next_page(html, url, page)
@@ -73,9 +68,46 @@ def scrape_one(uni, categories, debug=False):
                 break
             jobs.extend(more)
 
+    return jobs
+
+
+def scrape_one(uni, categories, debug=False):
+    """Try every URL for this university and merge what comes back.
+
+    A university counts as failed only when every one of its URLs fails.
+    That way a site that has moved keeps working from its new address while
+    the old one sits harmlessly in the list.
+    """
+    parser_name = uni.get("parser", "generic")
+    parser = PARSERS.get(parser_name)
+    if parser is None:
+        raise ValueError(f"unknown parser '{parser_name}'")
+
+    urls = uni.get("urls") or ([uni["url"]] if uni.get("url") else [])
+    if not urls:
+        raise ValueError("no urls configured")
+
+    raw, errors, used = [], [], []
+    for i, url in enumerate(urls):
+        if i:
+            time.sleep(REQUEST_DELAY)
+        try:
+            found = scrape_url(url, uni, parser, parser_name)
+            raw.extend(found)
+            used.append(url)
+            if debug:
+                print(f"    {len(found):3} from {url}")
+        except Exception as exc:
+            errors.append(f"{url} -> {type(exc).__name__}: {exc}")
+            if debug:
+                print(f"    FAILED {url}: {type(exc).__name__}: {exc}")
+
+    if errors and not used:
+        raise RuntimeError(" | ".join(errors))
+
     today = date.today().isoformat()
     cleaned, seen = [], set()
-    for job in jobs:
+    for job in raw:
         if not job.get("title") or job["url"] in seen:
             continue
         seen.add(job["url"])
@@ -89,13 +121,12 @@ def scrape_one(uni, categories, debug=False):
         cleaned.append(job)
 
     if debug:
-        print(f"\n--- {uni['name']} ({parser_name}) -> {len(cleaned)} open")
         for job in cleaned[:8]:
-            print(f"    {job.get('deadline') or '(no date)':12} {job['title'][:70]}")
+            print(f"      {job.get('deadline') or '(no date)':12} {job['title'][:66]}")
         if len(cleaned) > 8:
-            print(f"    ... and {len(cleaned) - 8} more")
+            print(f"      ... and {len(cleaned) - 8} more")
 
-    return cleaned
+    return cleaned, errors, used[0] if used else urls[0]
 
 
 def main():
@@ -118,34 +149,44 @@ def main():
         if not universities:
             sys.exit(f"No university matching '{args.only}'")
 
-    all_jobs, sources = [], []
+    all_jobs, sources, alerts = [], [], []
 
     for i, uni in enumerate(universities):
         if i:
             time.sleep(REQUEST_DELAY)
+        if args.debug:
+            print(f"\n--- {uni['name']} ({uni.get('parser', 'generic')})")
         try:
-            jobs = scrape_one(uni, categories, debug=args.debug)
+            jobs, errors, link = scrape_one(uni, categories, debug=args.debug)
             all_jobs.extend(jobs)
             sources.append({
                 "name": uni["name"],
                 "short": uni.get("short", uni["name"]),
-                "url": uni["url"],
+                "url": link,
                 "status": "ok",
                 "count": len(jobs),
                 "verified": uni.get("verified", False),
             })
             print(f"OK    {uni['name']}: {len(jobs)} open positions")
+            # One URL of several failing is worth knowing about even though
+            # the source as a whole still worked.
+            for err in errors:
+                alerts.append(f"{uni['name']} (partial): {err}")
+                print(f"WARN  {uni['name']}: {err}", file=sys.stderr)
         except Exception as exc:
+            urls = uni.get("urls") or [uni.get("url", "")]
+            message = f"{type(exc).__name__}: {exc}"
             sources.append({
                 "name": uni["name"],
                 "short": uni.get("short", uni["name"]),
-                "url": uni["url"],
+                "url": urls[0],
                 "status": "error",
                 "count": 0,
-                "error": f"{type(exc).__name__}: {exc}"[:200],
+                "error": message[:300],
                 "verified": uni.get("verified", False),
             })
-            print(f"FAIL  {uni['name']}: {type(exc).__name__}: {exc}", file=sys.stderr)
+            alerts.append(f"{uni['name']}: {message}")
+            print(f"FAIL  {uni['name']}: {message}", file=sys.stderr)
 
     # Undated positions sort last.
     all_jobs.sort(key=lambda j: (j.get("deadline") is None, j.get("deadline") or "", j["title"]))
@@ -165,6 +206,14 @@ def main():
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\nWrote {OUTPUT} — {len(all_jobs)} positions from "
           f"{sum(1 for s in sources if s['status'] == 'ok')}/{len(sources)} sources")
+
+    # The workflow reads this file and opens an issue if it has content,
+    # so a broken site reaches your inbox instead of waiting to be noticed.
+    if alerts and not args.only:
+        FAILURES.write_text("\n".join(alerts), encoding="utf-8")
+        print(f"{len(alerts)} problem(s) recorded for alerting")
+    elif FAILURES.exists():
+        FAILURES.unlink()
 
     # Fail the CI run only if everything broke, so one bad site doesn't
     # block the other eight from updating.

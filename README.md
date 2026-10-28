@@ -42,51 +42,67 @@ From here it runs itself every morning.
 
 ---
 
-## What to expect on the first run
+## What to expect
 
-Six of the nine sites have parsers written against their actual page structure:
-Oulu, Aalto, Vaasa, Åbo Akademi, Tampere and UEF.
+Seven of the nine sites have parsers written against their actual page
+structure: Oulu, Aalto, Vaasa, Åbo Akademi, Tampere, UEF and Jyväskylä.
 
-Three do not: **Turku, Helsinki and Jyväskylä**. I couldn't inspect those pages
-while building this, so they use a rough catch-all parser that grabs links whose
-text looks like a job title. They're marked `verified: false` in
-`universities.yml`, and the page shows a notice about them. They will probably
-either return junk or return nothing on the first run.
+**Turku and Helsinki return nothing.** Their listings are loaded by JavaScript,
+so there is nothing in the page HTML to parse. They're marked
+`verified: false`, and the site shows a notice about them. See below.
 
-To fix one, run it alone on your own machine:
+## Fixing a site that returns nothing
+
+Run it alone on your own machine:
 
 ```bash
 pip install -r requirements.txt
 python scrape.py --debug --only helsinki
 ```
 
-Look at what comes back. If it's wrong, the usual cause is one of two things:
+If it reports zero but the page looks fine in a browser, the data is being
+fetched separately by the page's own code. Find that request:
 
-- **Zero results and the page looks fine in a browser.** The listings are loaded
-  by JavaScript, so there's nothing in the HTML to parse. Open the page in
-  Chrome, press F12, go to the **Network** tab, filter to **Fetch/XHR**, reload,
-  and look for a request returning JSON full of job titles. That URL is what the
-  scraper should fetch instead. Helsinki is the likeliest candidate for this.
-- **Results, but messy.** Narrow `item_selector` in `universities.yml` to the
-  container the listings actually sit in, and tighten `must_match`.
+1. Open the job page in Chrome and press **F12**
+2. Click the **Network** tab, then filter to **Fetch/XHR**
+3. Reload the page
+4. Look through the requests for one whose response contains job titles
 
-Once a site works reliably, set `verified: true` so the warning notice stops
-showing for it.
+That request's URL is what the scraper should fetch instead of the human-facing
+page. Usually it returns JSON, which is far easier and more stable to parse than
+HTML. Add it to that university's `urls:` list and write a small parser for it.
 
----
+If it returns results but they're messy, narrow `item_selector` to the container
+the listings actually sit in and tighten `must_match`.
+
+Once a site works reliably, set `verified: true` so its warning disappears.
 
 ## Everyday use
 
 **Add a university.** Copy a block in `universities.yml`, change the name and
-URL, pick the closest `parser`. If it's another `*.rekrytointi.com` or Varbi
+`urls:`, pick the closest `parser`. If it's another `*.rekrytointi.com` or Varbi
 site, it will very likely just work. Worth adding: LUT, Hanken, Uniarts, the
 University of Lapland, and the research institutes (VTT, Luke, SYKE) if you want
 non-university research jobs too.
 
 **A site breaks.** Universities redesign pages, usually once or twice a year.
-When that happens the daily run logs `FAIL` for that one site and keeps going
-with the rest, and the page shows a notice with a direct link so nobody misses
-postings while you fix it. Only a total failure of all nine stops the run.
+Three things then happen. The daily run logs `FAIL` for that one site and keeps
+going with the rest. The page shows a notice with a direct link, so nobody
+misses postings while you fix it. And the workflow opens a GitHub issue, which
+GitHub emails you about, so you find out within a day rather than whenever you
+next happen to look. While that issue stays open no further alerts are filed,
+so a long-running breakage won't mail you every morning — close it once fixed.
+
+**A university moves to a new system.** This is what the `urls:` list is for.
+Put the new address at the top and leave the old one below it. Every URL is
+fetched and the results merged, so the source keeps working as long as any one
+of them does, and it only counts as failed when they all fail.
+
+The scraper deliberately does **not** try to find the new address by itself.
+It could search the web for the university's careers page, but it has no way to
+confirm the result is the right page, so it would sometimes parse the wrong
+site and present the output as real data. A scraper that quietly shows wrong
+jobs is worse than one that visibly fails.
 
 **Change how often it checks.** Edit the `cron` line in
 `.github/workflows/scrape.yml`. `"10 5 * * *"` means 05:10 UTC daily. Once a day

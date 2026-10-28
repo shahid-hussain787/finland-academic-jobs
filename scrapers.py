@@ -92,6 +92,10 @@ def rekrytointi(html, base_url, cfg):
                 "deadline": deadline,
             })
     if not jobs:
+        # These sites say so in words when nothing is open. That's a real
+        # answer, not a failure — don't cry wolf about a working site.
+        if re.search(r"no job postings|ei avoimia|inga lediga", html, re.I):
+            return []
         raise ValueError("no table rows parsed — rekrytointi layout may have changed")
     return jobs
 

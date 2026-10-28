@@ -1,84 +1,101 @@
-# Each entry describes one university's job listing page and how to read it.
+# Each entry describes one university and how to read its job listings.
 #
-# parser:    which function in scrapers.py handles this site
+# urls:      one or more addresses. ALL of them are fetched and the results
+#            merged, so this serves two purposes at once:
+#              - extra language listings (many Finnish sites keep separate
+#                English and Finnish lists, with different positions on each)
+#              - survival when a university moves. Put the new address first
+#                and leave the old one below; whichever still works is used,
+#                and the source only counts as failed if every URL fails.
+# parser:    which function in scrapers.py handles this page layout
 # verified:  true  = parser confirmed against the live page
-#            false = best guess, check the first debug run before trusting it
+#            false = best guess; the site shows a warning about it
 #
-# To add a university: copy a block, change name/url, pick the closest parser.
-# If none fit, use "generic" and fill in the selectors.
+# Careful with second-language listings: if a university advertises the same
+# position in both English and Finnish, the two have different links and will
+# both appear. Add a second language only where the first list is thin.
 
 universities:
 
   - name: University of Oulu
     short: Oulu
-    url: https://oulunyliopisto.varbi.com/en/
+    urls:
+      - https://oulunyliopisto.varbi.com/en/
     parser: varbi
     verified: true
 
   - name: Aalto University
     short: Aalto
-    url: https://www.aalto.fi/en/open-positions
+    urls:
+      - https://www.aalto.fi/en/open-positions
     parser: aalto
     verified: true
     max_pages: 5
 
   - name: University of Vaasa
     short: Vaasa
-    url: https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en
+    urls:
+      # The English list is usually empty - Vaasa advertises mostly in Finnish.
+      - https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en
+      - https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=1&lang=fi
     parser: rekrytointi
     verified: true
 
   - name: Åbo Akademi University
     short: Åbo Akademi
-    url: https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en
+    urls:
+      - https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en
     parser: rekrytointi
     verified: true
 
   - name: Tampere University
     short: Tampere
-    url: https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university
+    urls:
+      - https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university
     parser: tampere
     verified: true
 
   - name: University of Eastern Finland
     short: UEF
-    url: https://www.uef.fi/en/open-positions
+    urls:
+      - https://www.uef.fi/en/open-positions
     parser: uef
     verified: true
 
-  # --- Not yet confirmed. Run `python scrape.py --debug --only turku` etc.
-  # --- and adjust the selectors below until the output looks right.
+  - name: University of Jyväskylä
+    short: Jyväskylä
+    urls:
+      - https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla
+    parser: generic
+    verified: true
+    generic:
+      item_selector: "main a"
+      link_attr: href
+      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+
+  # --- Returning nothing so far. Their listings are almost certainly loaded
+  # --- by JavaScript, so there is nothing in the HTML to parse. See the
+  # --- README section "Fixing a site that returns nothing".
 
   - name: University of Turku
     short: Turku
-    url: https://www.utu.fi/en/university/come-work-with-us/open-vacancies
+    urls:
+      - https://www.utu.fi/en/university/come-work-with-us/open-vacancies
     parser: generic
     verified: false
     generic:
       item_selector: "main a"
-      title_selector: null          # null = use the link's own text
       link_attr: href
       must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
 
   - name: University of Helsinki
     short: Helsinki
-    url: https://www.helsinki.fi/en/about-us/careers/open-positions
+    urls:
+      - https://www.helsinki.fi/en/about-us/careers/open-positions
     parser: generic
     verified: false
     generic:
       item_selector: "main a"
-      title_selector: null
-      link_attr: href
-      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
-
-  - name: University of Jyväskylä
-    short: Jyväskylä
-    url: https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla
-    parser: generic
-    verified: false
-    generic:
-      item_selector: "main a"
-      title_selector: null
       link_attr: href
       must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
 
