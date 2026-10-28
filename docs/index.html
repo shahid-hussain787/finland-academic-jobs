@@ -244,13 +244,18 @@ function esc(s) {
 fetch("jobs.json?t=" + Date.now())
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
-    state.jobs = data.jobs || [];
-
+    // The scrape drops closed positions, but hours pass between runs and a
+    // deadline can lapse in between. Re-check here so the page is never wrong,
+    // however stale jobs.json happens to be.
+    state.jobs = (data.jobs || []).filter(j => {
+      const d = daysUntil(j.deadline);
+      return d === null || d >= 0;
+    });
     const when = new Date(data.generated_at);
     const hrs = Math.round((Date.now() - when) / 3600000);
     const ok = (data.sources || []).filter(s => s.status === "ok").length;
     document.getElementById("status").textContent =
-      `${data.job_count} positions from ${ok} universities · last checked ` +
+      `${state.jobs.length} positions from ${ok} universities · last checked ` +
       (hrs < 1 ? "less than an hour ago" : hrs < 48 ? `${hrs} hours ago` : `${Math.round(hrs/24)} days ago`);
 
     const broken = (data.sources || []).filter(s => s.status === "error");
