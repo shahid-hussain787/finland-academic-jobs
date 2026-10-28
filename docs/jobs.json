@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T14:34:14+00:00",
+ "generated_at": "2026-10-28T08:00:07+00:00",
  "job_count": 62,
  "sources": [
   {
@@ -15,16 +15,15 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 24,
+   "count": 25,
    "verified": true
   },
   {
    "name": "University of Vaasa",
    "short": "Vaasa",
    "url": "https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en",
-   "status": "error",
+   "status": "ok",
    "count": 0,
-   "error": "ValueError: no table rows parsed — rekrytointi layout may have changed",
    "verified": true
   },
   {
@@ -52,6 +51,14 @@
    "verified": true
   },
   {
+   "name": "University of Jyväskylä",
+   "short": "Jyväskylä",
+   "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
+   "status": "ok",
+   "count": 0,
+   "verified": true
+  },
+  {
    "name": "University of Turku",
    "short": "Turku",
    "url": "https://www.utu.fi/en/university/come-work-with-us/open-vacancies",
@@ -66,26 +73,9 @@
    "status": "ok",
    "count": 0,
    "verified": false
-  },
-  {
-   "name": "University of Jyväskylä",
-   "short": "Jyväskylä",
-   "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
-   "status": "ok",
-   "count": 1,
-   "verified": false
   }
  ],
  "jobs": [
-  {
-   "title": "Doctoral Researcher in Psychology",
-   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia/8dRoGG?lang=en",
-   "unit": null,
-   "deadline": "2026-10-27",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Doctoral"
-  },
   {
    "title": "Trainee, the Finnish University Partnership for International Development (UniPID)",
    "url": "https://uef.varbi.com/en/what:job/jobID:979246/type:job/where:4/apply:1",
@@ -133,7 +123,7 @@
   },
   {
    "title": "Universitetslärare i engelska, Utbildningsservice",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=9c8mm3fem60w4g8cs8w4gckco4os0gs",
    "unit": null,
    "deadline": "2026-10-30",
    "university": "Åbo Akademi University",
@@ -250,7 +240,7 @@
   },
   {
    "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=9c8mm3fem60w4g8cs8w4gckco4os0gs",
    "unit": null,
    "deadline": "2026-11-02",
    "university": "Åbo Akademi University",
@@ -304,7 +294,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=9c8mm3fem60w4g8cs8w4gckco4os0gs",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -349,7 +339,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=9c8mm3fem60w4g8cs8w4gckco4os0gs",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -412,7 +402,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=bbf5wobja4o4cwsgc0kk44ok00g80ko",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=9c8mm3fem60w4g8cs8w4gckco4os0gs",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -535,6 +525,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher in condensed matter physics and two-dimensional (2D) Quantum Devices",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-condensed-matter-physics-and-two-dimensional-2d-quantum-devices",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher, Space Physics, Sodankylä Geophysical Observatory",
