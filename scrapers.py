@@ -142,13 +142,48 @@ def aalto(html, base_url, cfg):
     return jobs
 
 
-def aalto_next_page(html, base_url, page_index):
-    """Aalto paginates with ?page=1, ?page=2 ... Return the next URL or None."""
+NEXT_TEXT = re.compile(
+    r"^(next|next page|seuraava|seuraava sivu|n\u00e4sta|n\u00e4sta sidan|\u00bb|\u203a|>|>>)$",
+    re.I,
+)
+
+
+def find_next_page(html, base_url, page_index):
+    """Find the link to the next page of listings, or None if this is the last.
+
+    Tried in order of reliability:
+      1. rel="next", which is unambiguous when a site bothers to set it
+      2. a link whose text or aria-label means "next"
+      3. a ?page=N link where N is exactly the page we want
+
+    The third is last because a page=N link could be anything; requiring the
+    exact expected number keeps it from wandering off into unrelated links.
+    """
     soup = BeautifulSoup(html, "html.parser")
+
+    rel_next = soup.find(
+        "a",
+        href=True,
+        rel=lambda v: v and "next" in ([v] if isinstance(v, str) else v),
+    )
+    if rel_next:
+        return urljoin(base_url, rel_next["href"])
+
     for a in soup.find_all("a", href=True):
-        if f"page={page_index}" in a["href"]:
+        label = _clean(a.get("aria-label") or "")
+        if NEXT_TEXT.match(_clean(a.get_text())) or NEXT_TEXT.match(label):
             return urljoin(base_url, a["href"])
+
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"[?&]page=(\d+)", a["href"])
+        if m and int(m.group(1)) == page_index:
+            return urljoin(base_url, a["href"])
+
     return None
+
+
+# Kept so older configs importing this name still work.
+aalto_next_page = find_next_page
 
 
 # --------------------------------------------------------------------------
@@ -159,7 +194,8 @@ def tampere(html, base_url, cfg):
     main = soup.find("main") or soup
     jobs = []
 
-    for node in main.find_all(string=re.compile(r"Application period ends")):
+    marker = re.compile(r"Application period ends|Hakuaika p\u00e4\u00e4ttyy", re.I)
+    for node in main.find_all(string=marker):
         deadline = _parse_date(str(node))
         # Walk backwards to the nearest preceding link, which is the title.
         holder = node.parent
@@ -182,7 +218,7 @@ def tampere(html, base_url, cfg):
         })
 
     if not jobs:
-        raise ValueError("no 'Application period ends' text found — Tampere layout may have changed")
+        raise ValueError("no application-deadline text found \u2014 Tampere layout may have changed")
     return jobs
 
 
@@ -194,7 +230,8 @@ def uef(html, base_url, cfg):
     main = soup.find("main") or soup
     jobs = []
 
-    for node in main.find_all(string=re.compile(r"Apply by")):
+    marker = re.compile(r"Apply by|Hae viimeist\u00e4\u00e4n", re.I)
+    for node in main.find_all(string=marker):
         text = _clean(str(node))
         deadline = _parse_date(text)
         unit = None
@@ -221,7 +258,7 @@ def uef(html, base_url, cfg):
         })
 
     if not jobs:
-        raise ValueError("no 'Apply by' text found — UEF layout may have changed")
+        raise ValueError("no apply-by text found \u2014 UEF layout may have changed")
     return jobs
 
 

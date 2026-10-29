@@ -104,6 +104,27 @@ confirm the result is the right page, so it would sometimes parse the wrong
 site and present the output as real data. A scraper that quietly shows wrong
 jobs is worse than one that visibly fails.
 
+**Multiple pages of positions.** Handled automatically for every site. After
+parsing a page the scraper looks for a next-page link (`rel="next"`, a link
+reading Next or Seuraava, or a `?page=N` link) and keeps going. It stops at
+`max_pages` (10 by default, settable per university), when there is no next
+link, or when a page adds nothing new.
+
+Worth knowing: as of writing, only Aalto actually paginates. Oulu, UEF and
+Tampere each show everything on one page.
+
+**Positions advertised only in Finnish.** This is a much bigger gap than
+pagination. Tampere states outright that it publishes all positions in Finnish
+and only the ones not requiring Finnish in English, so its English page shows a
+fraction of what is open; Vaasa often has nothing in English at all. Both now
+fetch their Finnish listing as a second URL. The Tampere and UEF parsers read
+Finnish deadline wording as well as English.
+
+If you want to try this for another university, add its Finnish page as a
+second URL and check the next run. Positions appearing twice means that
+university uses different links per language, and dedupe by URL can't catch it
+— remove the second URL in that case.
+
 **Change how often it checks.** Edit the `cron` line in
 `.github/workflows/scrape.yml`. `"10 5 * * *"` means 05:10 UTC daily. Once a day
 is plenty — deadlines are weeks out, and hammering these sites hourly is rude and

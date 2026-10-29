@@ -52,6 +52,11 @@ universities:
     short: Tampere
     urls:
       - https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university
+      # Tampere publishes EVERY position in Finnish and only the ones not
+      # requiring Finnish in English, so the English page alone shows a
+      # fraction of what is open. Most postings carry a bilingual title.
+      # If you start seeing the same job listed twice, delete this line.
+      - https://www.tuni.fi/fi/tau/toihin-yliopistoon/avoimet-tyopaikat
     parser: tampere
     verified: true
 

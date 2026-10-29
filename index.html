@@ -42,6 +42,29 @@
   .meta{color:var(--ink-soft); font-size:.9rem; margin:0}
   .meta a{color:inherit}
 
+  /* Direct links to each university ------------------------------------ */
+  .sources{margin:1.5rem 0 0}
+  .sources > h2{
+    font-size:.78rem; font-weight:600; letter-spacing:.04em;
+    text-transform:uppercase; color:var(--ink-soft); margin:0 0 .5rem;
+  }
+  .sources ul{
+    list-style:none; margin:0; padding:0;
+    display:grid; gap:.1rem 1.5rem;
+    grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));
+  }
+  .sources li{
+    display:flex; justify-content:space-between; gap:.75rem;
+    padding:.3rem 0; border-bottom:1px solid var(--rule); font-size:.88rem;
+  }
+  .sources a{color:var(--cold); text-decoration:none}
+  .sources a:hover,.sources a:focus-visible{text-decoration:underline}
+  .sources .n{
+    font-family:var(--mono); font-size:.8rem; color:var(--ink-soft);
+    font-variant-numeric:tabular-nums; white-space:nowrap;
+  }
+  .sources .n.zero{color:var(--urgent)}
+
   /* Controls ----------------------------------------------------------- */
   .controls{
     position:sticky; top:0; z-index:5; background:var(--paper);
@@ -120,6 +143,11 @@
   <header>
     <h1>Open academic positions in Finland</h1>
     <p class="meta" id="status">Loading positions…</p>
+
+    <nav class="sources" id="source-links" hidden>
+      <h2>Browse a university directly</h2>
+      <ul></ul>
+    </nav>
   </header>
 </div>
 
@@ -142,7 +170,6 @@
   <p>Positions are collected automatically from each university's own listing page once a day.
      Always check the original posting before applying — deadlines and requirements change,
      and some positions are only advertised in Finnish.</p>
-  <p id="sources"></p>
 </footer>
 
 <script>
@@ -281,8 +308,24 @@ fetch("jobs.json?t=" + Date.now())
       document.getElementById("notices").appendChild(n);
     }
 
-    document.getElementById("sources").innerHTML = "Sources: " +
-      (data.sources || []).map(s => `<a href="${s.url}" rel="noopener">${esc(s.short)}</a>`).join(", ");
+    const srcList = document.querySelector("#source-links ul");
+    (data.sources || [])
+      .slice()
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach(s => {
+        const li = document.createElement("li");
+        // Count comes from the last run. A zero is worth flagging rather than
+        // hiding: it means go and look at that university's page yourself.
+        const n = s.status === "error" ? "unreachable"
+          : s.count === 0 ? "none found"
+          : s.count === 1 ? "1 open"
+          : `${s.count} open`;
+        li.innerHTML =
+          `<a href="${s.url}" rel="noopener">${esc(s.name)}</a>` +
+          `<span class="n${s.count ? "" : " zero"}">${n}</span>`;
+        srcList.appendChild(li);
+      });
+    if (srcList.children.length) document.getElementById("source-links").hidden = false;
 
     const cats = [...new Set(state.jobs.map(j => j.category))].sort();
     const unis = [...new Set(state.jobs.map(j => j.university_short))].sort();

@@ -18,7 +18,7 @@ from pathlib import Path
 import requests
 import yaml
 
-from scrapers import PARSERS, aalto_next_page
+from scrapers import PARSERS, find_next_page
 
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "universities.yml"
@@ -51,22 +51,47 @@ def categorise(title, categories):
     return "Other"
 
 
-def scrape_url(url, uni, parser, parser_name):
-    """Fetch one URL (following Aalto's pagination) and parse it."""
+def scrape_url(url, uni, parser, parser_name, debug=False):
+    """Fetch one URL and follow its pagination to the end.
+
+    Three separate stops, because a runaway crawler on someone else's site
+    is the one failure mode worth being paranoid about:
+      - max_pages, a hard ceiling
+      - no next-page link found
+      - a page that adds no job we haven't already seen
+    """
     html = fetch(url)
     jobs = parser(html, url, uni)
+    seen_pages = {url}
+    seen_jobs = {j["url"] for j in jobs}
 
-    if parser_name == "aalto":
-        for page in range(1, uni.get("max_pages", 5)):
-            next_url = aalto_next_page(html, url, page)
-            if not next_url:
-                break
-            time.sleep(REQUEST_DELAY)
+    max_pages = uni.get("max_pages", 10)
+    page_url = url
+
+    for page in range(1, max_pages):
+        next_url = find_next_page(html, page_url, page)
+        if not next_url or next_url in seen_pages:
+            break
+        seen_pages.add(next_url)
+
+        time.sleep(REQUEST_DELAY)
+        try:
             html = fetch(next_url)
             more = parser(html, next_url, uni)
-            if not more:
-                break
-            jobs.extend(more)
+        except Exception as exc:
+            # A broken page 3 shouldn't throw away pages 1 and 2.
+            if debug:
+                print(f"      page {page + 1} failed: {type(exc).__name__}: {exc}")
+            break
+
+        fresh = [j for j in more if j["url"] not in seen_jobs]
+        if not fresh:
+            break
+        seen_jobs.update(j["url"] for j in fresh)
+        jobs.extend(fresh)
+        page_url = next_url
+        if debug:
+            print(f"      page {page + 1}: +{len(fresh)}")
 
     return jobs
 
@@ -92,7 +117,7 @@ def scrape_one(uni, categories, debug=False):
         if i:
             time.sleep(REQUEST_DELAY)
         try:
-            found = scrape_url(url, uni, parser, parser_name)
+            found = scrape_url(url, uni, parser, parser_name, debug=debug)
             raw.extend(found)
             used.append(url)
             if debug:
