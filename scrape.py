@@ -18,7 +18,8 @@ from pathlib import Path
 import requests
 import yaml
 
-from scrapers import PARSERS, find_next_page, language_links
+from scrapers import (PARSERS, find_next_page, language_links,
+                      increment_trailing_number)
 
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "universities.yml"
@@ -97,7 +98,12 @@ def scrape_url(url, uni, parser, parser_name, debug=False):
     page_url = url
 
     for page in range(1, max_pages):
-        next_url = find_next_page(html, page_url, page)
+        # Endpoints that page by a number in the path have no "next" link
+        # to find; the number itself is the pagination.
+        if uni.get("page_by_number"):
+            next_url = increment_trailing_number(page_url)
+        else:
+            next_url = find_next_page(html, page_url, page)
         if not next_url or next_url in seen_pages:
             break
         seen_pages.add(next_url)

@@ -98,13 +98,18 @@ universities:
   - name: University of Helsinki
     short: Helsinki
     urls:
-      - https://www.helsinki.fi/en/about-us/careers/open-positions
-    # Helsinki loads its listings via SAP SuccessFactors; the page HTML
-    # contains only "0 positions" and a Show more button. To enable this,
-    # find the request that returns the job data (README, "Fixing a site
-    # that returns nothing"), check that host's robots.txt allows it, then
-    # replace link_only with a url and parser.
-    link_only: true
+      # Their careers page contains no jobs at all; this is the endpoint it
+      # calls to fill itself in. The three nulls are the filter dropdowns
+      # (unit, job type, keyword) and the last digit is the page number.
+      # helsinki.fi/robots.txt permits this path: its only ajax rule is
+      # "Disallow: /ajax/", which this is not under.
+      - https://www.helsinki.fi/en/ajax_get_jobs/en/null/null/null/0
+    parser: helsinki
+    page_by_number: true
+    max_pages: 12
+    # Unverified: the response format was not confirmed before writing this.
+    # Check the first run's debug output and set true once it looks right.
+    verified: false
 
 # Positions whose title matches any of these are tagged, so the page can
 # filter by category. Order matters: first match wins.

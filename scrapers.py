@@ -7,6 +7,7 @@ still a job. They raise only when the page shape is clearly wrong, so the
 run log tells you a site changed instead of silently reporting zero jobs.
 """
 
+import json
 import re
 from datetime import date
 from urllib.parse import urljoin
@@ -372,8 +373,130 @@ def language_links(html, base_url):
     return found
 
 
+# --------------------------------------------------------------------------
+# Helsinki. Their listing page ships no jobs; a Drupal endpoint supplies them:
+#   https://www.helsinki.fi/en/ajax_get_jobs/en/null/null/null/0
+# The nulls are the filter dropdowns, the final digit is the page number.
+# Permitted by robots.txt: the only ajax rule there is "Disallow: /ajax/",
+# and this path does not fall under it.
+#
+# The response may be JSON or an HTML fragment, so this handles both rather
+# than assuming. Field names are matched loosely for the same reason.
+# --------------------------------------------------------------------------
+TITLE_KEYS = ("title", "job_title", "name", "otsikko", "position", "heading")
+URL_KEYS = ("url", "link", "href", "path", "apply_url", "job_url", "alias")
+DATE_KEYS = ("deadline", "closing", "close", "end_date", "application_end",
+             "expires", "valid_to", "hakuaika", "paattyy", "due")
+
+
+def _pick(d, keys):
+    for k in d:
+        lowered = k.lower()
+        if any(cand in lowered for cand in keys):
+            value = d[k]
+            if isinstance(value, (str, int, float)) and str(value).strip():
+                return str(value)
+    return None
+
+
+def _walk_json(node, out):
+    """Collect every dict that looks like a job posting, at any depth."""
+    if isinstance(node, dict):
+        title = _pick(node, TITLE_KEYS)
+        if title and len(title.strip()) > 3:
+            out.append(node)
+        else:
+            for v in node.values():
+                _walk_json(v, out)
+    elif isinstance(node, list):
+        for item in node:
+            _walk_json(item, out)
+
+
+def helsinki(payload, base_url, cfg):
+    text = payload.strip()
+
+    if text[:1] in "{[":
+        try:
+            data = json.loads(text)
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"endpoint returned unparseable JSON: {exc}")
+
+        candidates = []
+        _walk_json(data, candidates)
+        jobs, seen = [], set()
+        for item in candidates:
+            title = _clean(_pick(item, TITLE_KEYS))
+            if not title:
+                continue
+            raw_url = _pick(item, URL_KEYS) or ""
+            # Drupal often sends rendered markup rather than plain values,
+            # and sometimes the only link lives inside the title itself.
+            for source in (raw_url, title):
+                if "<" in source:
+                    a = BeautifulSoup(source, "html.parser").find("a", href=True)
+                    if a:
+                        raw_url = a["href"]
+                        break
+                    raw_url = "" if source is raw_url else raw_url
+            url = urljoin(base_url, raw_url) if raw_url else base_url
+            if url in seen:
+                continue
+            seen.add(url)
+            if "<" in title:
+                title = _clean(BeautifulSoup(title, "html.parser").get_text())
+            jobs.append({
+                "title": title,
+                "url": url,
+                "unit": None,
+                "deadline": _parse_date(_pick(item, DATE_KEYS) or ""),
+            })
+        if not jobs:
+            # An empty list is how the last page of results announces itself.
+            # Only complain when there was content we failed to make sense of.
+            if not data:
+                return []
+            raise ValueError("JSON parsed but no job-shaped records found")
+        return jobs
+
+    # Otherwise treat it as an HTML fragment.
+    soup = BeautifulSoup(payload, "html.parser")
+    jobs, seen = [], set()
+    for link in soup.find_all("a", href=True):
+        title = _clean(link.get_text())
+        if len(title) < 8 or link["href"] in seen:
+            continue
+        seen.add(link["href"])
+        deadline, holder = None, link.parent
+        for _ in range(4):
+            if holder is None:
+                break
+            deadline = _parse_date(holder.get_text())
+            if deadline:
+                break
+            holder = holder.parent
+        jobs.append({
+            "title": title,
+            "url": urljoin(base_url, link["href"]),
+            "unit": None,
+            "deadline": deadline,
+        })
+    if not jobs:
+        raise ValueError("no jobs found in the endpoint response")
+    return jobs
+
+
+def increment_trailing_number(url):
+    """Next page for endpoints that end in a page number, like .../null/0."""
+    m = re.search(r"(\d+)(/?)$", url)
+    if not m:
+        return None
+    return url[:m.start(1)] + str(int(m.group(1)) + 1) + m.group(2)
+
+
 PARSERS = {
     "varbi": varbi,
+    "helsinki": helsinki,
     "talentadore": talentadore,
     "rekrytointi": rekrytointi,
     "aalto": aalto,
