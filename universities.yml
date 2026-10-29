@@ -7,6 +7,10 @@
 #              - survival when a university moves. Put the new address first
 #                and leave the old one below; whichever still works is used,
 #                and the source only counts as failed if every URL fails.
+# link:      the page a visitor should open, when that differs from what the
+#            scraper fetches. Helsinki is read through an API endpoint that
+#            would be useless to a human, so it needs one. Defaults to the
+#            first entry in urls.
 # parser:    which function in scrapers.py handles this page layout
 # verified:  true  = parser confirmed against the live page
 #            false = best guess; the site shows a warning about it
@@ -104,11 +108,18 @@ universities:
       # helsinki.fi/robots.txt permits this path: its only ajax rule is
       # "Disallow: /ajax/", which this is not under.
       - https://www.helsinki.fi/en/ajax_get_jobs/en/null/null/null/0
+    link: https://www.helsinki.fi/en/about-us/careers/open-positions
+    # Drupal AJAX routes commonly answer 403 unless the request carries the
+    # headers a browser sends when the page's own script calls them. These
+    # are the two a browser always includes; nothing here disguises the
+    # scraper, whose identity stays in the User-Agent.
+    headers:
+      X-Requested-With: XMLHttpRequest
+      Referer: https://www.helsinki.fi/en/about-us/careers/open-positions
+      Accept: application/json, text/javascript, */*; q=0.01
     parser: helsinki
     page_by_number: true
     max_pages: 12
-    # Unverified: the response format was not confirmed before writing this.
-    # Check the first run's debug output and set true once it looks right.
     verified: true
 
 # Positions whose title matches any of these are tagged, so the page can
