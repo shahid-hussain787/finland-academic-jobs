@@ -64,6 +64,10 @@
     font-variant-numeric:tabular-nums; white-space:nowrap;
   }
   .sources .n.zero{color:var(--urgent)}
+  .sources .missing{
+    margin:.9rem 0 0; font-size:.9rem; font-weight:600;
+    color:var(--urgent); line-height:1.45;
+  }
 
   /* Controls ----------------------------------------------------------- */
   .controls{
@@ -330,8 +334,7 @@ fetch("jobs.json?t=" + Date.now())
         ? names.slice(0, -1).join(", ") + " and " + names[names.length - 1]
         : names[0];
       const note = document.createElement("p");
-      note.className = "meta";
-      note.style.marginTop = ".75rem";
+      note.className = "missing";
       note.textContent =
         `Positions at ${joined} are not shown below. ` +
         `Click the university name above to open ${names.length > 1 ? "their" : "its"} ` +
