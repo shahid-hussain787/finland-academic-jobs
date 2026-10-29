@@ -45,8 +45,11 @@ SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
 
-def fetch(url):
-    resp = SESSION.get(url, timeout=TIMEOUT)
+def fetch(url, extra_headers=None):
+    """Fetch a URL. extra_headers covers sites whose endpoints expect the
+    headers a browser sends when its own JavaScript makes the request —
+    without them some Drupal AJAX routes answer 403."""
+    resp = SESSION.get(url, timeout=TIMEOUT, headers=extra_headers or None)
     resp.raise_for_status()
     resp.encoding = resp.apparent_encoding or resp.encoding
     return resp.text
@@ -68,7 +71,8 @@ def scrape_url(url, uni, parser, parser_name, debug=False):
       - no next-page link found
       - a page that adds no job we haven't already seen
     """
-    html = fetch(url)
+    headers = uni.get("headers")
+    html = fetch(url, headers)
     jobs = parser(html, url, uni)
     seen_pages = {url}
     seen_jobs = {j["url"] for j in jobs}
@@ -82,7 +86,7 @@ def scrape_url(url, uni, parser, parser_name, debug=False):
             seen_pages.add(lang_url)
             time.sleep(REQUEST_DELAY)
             try:
-                lang_html = fetch(lang_url)
+                lang_html = fetch(lang_url, headers)
                 more = parser(lang_html, lang_url, uni)
             except Exception as exc:
                 if debug:
@@ -110,7 +114,7 @@ def scrape_url(url, uni, parser, parser_name, debug=False):
 
         time.sleep(REQUEST_DELAY)
         try:
-            html = fetch(next_url)
+            html = fetch(next_url, headers)
             more = parser(html, next_url, uni)
         except Exception as exc:
             # A broken page 3 shouldn't throw away pages 1 and 2.
@@ -220,7 +224,7 @@ def main():
             sources.append({
                 "name": uni["name"],
                 "short": uni.get("short", uni["name"]),
-                "url": (uni.get("urls") or [uni.get("url", "")])[0],
+                "url": uni.get("link") or (uni.get("urls") or [uni.get("url", "")])[0],
                 "status": "link_only",
                 "count": 0,
                 "verified": True,
@@ -236,7 +240,10 @@ def main():
             sources.append({
                 "name": uni["name"],
                 "short": uni.get("short", uni["name"]),
-                "url": link,
+                # What a visitor should open, which is not necessarily what
+                # the scraper fetched: some sites are read through an API
+                # endpoint that would be useless to a human.
+                "url": uni.get("link") or link,
                 "status": "ok",
                 "count": len(jobs),
                 "verified": uni.get("verified", False),
@@ -253,7 +260,7 @@ def main():
             sources.append({
                 "name": uni["name"],
                 "short": uni.get("short", uni["name"]),
-                "url": urls[0],
+                "url": uni.get("link") or urls[0],
                 "status": "error",
                 "count": 0,
                 "error": message[:300],
