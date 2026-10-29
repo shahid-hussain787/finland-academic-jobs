@@ -82,31 +82,29 @@ universities:
     parser: talentadore
     verified: true
 
-  # --- Returning nothing so far. Their listings are almost certainly loaded
-  # --- by JavaScript, so there is nothing in the HTML to parse. See the
-  # --- README section "Fixing a site that returns nothing".
+  # --- Listed for browsing only: not scraped, no parser runs. The site
+  # --- shows these with a "browse directly" link instead of a position
+  # --- count, so nobody mistakes an empty result for "nothing is open".
 
   - name: University of Turku
     short: Turku
     urls:
       - https://www.utu.fi/en/university/come-work-with-us/open-vacancies
-    parser: generic
-    verified: false
-    generic:
-      item_selector: "main a"
-      link_attr: href
-      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+    # Turku's listings are served from rekry.saima.fi, whose robots.txt
+    # disallows automated access. We respect that and do not scrape it.
+    # Please don't "fix" this by ignoring robots.txt.
+    link_only: true
 
   - name: University of Helsinki
     short: Helsinki
     urls:
       - https://www.helsinki.fi/en/about-us/careers/open-positions
-    parser: generic
-    verified: false
-    generic:
-      item_selector: "main a"
-      link_attr: href
-      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
+    # Helsinki loads its listings via SAP SuccessFactors; the page HTML
+    # contains only "0 positions" and a Show more button. To enable this,
+    # find the request that returns the job data (README, "Fixing a site
+    # that returns nothing"), check that host's robots.txt allows it, then
+    # replace link_only with a url and parser.
+    link_only: true
 
 # Positions whose title matches any of these are tagged, so the page can
 # filter by category. Order matters: first match wins.

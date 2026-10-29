@@ -205,8 +205,23 @@ def main():
     all_jobs, sources, alerts = [], [], []
 
     for i, uni in enumerate(universities):
-        if i:
+        if i and not uni.get("link_only"):
             time.sleep(REQUEST_DELAY)
+        if uni.get("link_only"):
+            # Listed for browsing, never fetched. Used where a site forbids
+            # automated access or hasn't been worked out yet; either way,
+            # pretending we scraped it and found nothing would be a lie.
+            sources.append({
+                "name": uni["name"],
+                "short": uni.get("short", uni["name"]),
+                "url": (uni.get("urls") or [uni.get("url", "")])[0],
+                "status": "link_only",
+                "count": 0,
+                "verified": True,
+            })
+            print(f"SKIP  {uni['name']}: listed for browsing only")
+            continue
+
         if args.debug:
             print(f"\n--- {uni['name']} ({uni.get('parser', 'generic')})")
         try:
@@ -270,7 +285,8 @@ def main():
 
     # Fail the CI run only if everything broke, so one bad site doesn't
     # block the other eight from updating.
-    if sources and all(s["status"] == "error" for s in sources):
+    scraped = [s for s in sources if s["status"] != "link_only"]
+    if scraped and all(s["status"] == "error" for s in scraped):
         sys.exit("All sources failed")
 
 
