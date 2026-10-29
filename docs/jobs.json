@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-29T11:29:29+00:00",
- "job_count": 62,
+ "generated_at": "2026-10-29T13:38:17+00:00",
+ "job_count": 96,
  "sources": [
   {
    "name": "University of Oulu",
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 6,
+   "count": 20,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 0,
+   "count": 20,
    "verified": true
   },
   {
@@ -113,13 +113,40 @@
    "category": "Postdoc"
   },
   {
+   "title": "Postdoctoral Researcher, Global Palestine and Environmental Violence (‘GloPal’ and ‘HOMCRI’-projects) / Tutkijatohtori, Globaali Palestiina ja ympäristöllisen väkivallan muodot",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3184",
+   "unit": null,
+   "deadline": "2026-10-30",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Postdoc"
+  },
+  {
    "title": "Universitetslärare i engelska, Utbildningsservice",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=91gr0vh6vy80k4kcoo8gsck0ow4w8kc",
    "unit": null,
    "deadline": "2026-10-30",
    "university": "Åbo Akademi University",
    "university_short": "Åbo Akademi",
    "category": "Other"
+  },
+  {
+   "title": "University Teacher in Education",
+   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-kasvatustiede/ZAY7kW?lang=en",
+   "unit": "Kokkolan yliopistokeskus Chydenius",
+   "deadline": "2026-10-30",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Teaching"
+  },
+  {
+   "title": "5-8 Doctoral Researchers in Business and Economics, JSBE",
+   "url": "https://ats.talentadore.com/apply/5-8-doctoral-researchers-in-business-and-economics-jsbe/mJNJRE",
+   "unit": "Jyväskylä University School of Business and Economics",
+   "deadline": "2026-10-31",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher in Speech and Language Technology",
@@ -185,6 +212,24 @@
    "category": "Other"
   },
   {
+   "title": "Doctoral Researcher, LIDE -project",
+   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-lide-hanke/ZzJ2EB?lang=en",
+   "unit": "Faculty of Sport and Health Sciences",
+   "deadline": "2026-11-01",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-condensed-matter-theory-in-the-centre-of-excellence-in-quantum-materials/DokgaK",
+   "unit": "Department of Physics",
+   "deadline": "2026-11-01",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
    "title": "Projektisuunnittelija",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:973275/",
    "unit": "Humanistinen tiedekunta, Giellagas-instituutti",
@@ -203,6 +248,15 @@
    "category": "Postdoc"
   },
   {
+   "title": "University Teacher in Education and Adult education",
+   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-kasvatustiede-ja-aikuiskasvatustiede/ZqJA5g?lang=en",
+   "unit": "Jyväskylän yliopisto",
+   "deadline": "2026-11-01",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Teaching"
+  },
+  {
    "title": "Yliopisto-opettaja, kauppatieteet",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:970669/",
    "unit": "Oulun yliopiston kauppakorkeakoulu",
@@ -212,6 +266,24 @@
    "category": "Teaching"
   },
   {
+   "title": "Datanhallinnan asiantuntija kirjastoon Johtamisen ja talouden tiedekunnan (MAB) lähipalveluihin",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3198",
+   "unit": null,
+   "deadline": "2026-11-02",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
+   "title": "Datanhallinnan asiantuntija kirjastoon Lääketieteen ja terveysteknologian tiedekunnan (MET) lähipalveluihin",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3199",
+   "unit": null,
+   "deadline": "2026-11-02",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
    "title": "Koulunkäynninohjaaja, Oulun normaalikoulu",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:979950/",
    "unit": "Kasvatustieteiden ja psykologian tiedekunta, Oulun yliopiston harjoittelukoulu",
@@ -219,6 +291,42 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Other"
+  },
+  {
+   "title": "Network Designer",
+   "url": "https://ats.talentadore.com/apply/verkkosuunnittelija/Dap9qJ?lang=en",
+   "unit": "Kokkolan yliopistokeskus Chydenius University Teacher in Education Posted on 11.10.2026 Application deadline 30.10.2026 Jyväskylän yliopisto University Teacher in Education and Adult education Posted on 9.10.2026 Application deadline 1.11.2026 Faculty of Sport and Health Sciences Doctoral Researcher, LIDE -project Posted on 8.10.2026 Application deadline 1.11.2026 Department of Biological and Environmental Science Postdoctoral Researcher, Evolutionary Environmental Biology Posted on 22.9.2026 Application deadline 2.11.2026 Department of Physics Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials Posted on 16.9.2026 Application deadline 1.11.2026 The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026 Project Manager Posted on 7.7.2026",
+   "deadline": "2026-11-02",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher, Evolutionary Environmental Biology",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-evolutionary-environmental-biology/ZvnepW",
+   "unit": "Department of Biological and Environmental Science",
+   "deadline": "2026-11-02",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Project Manager",
+   "url": "https://ats.talentadore.com/apply/projektipaallikko/ZjaOwp?lang=en",
+   "unit": "Kokkolan yliopistokeskus Chydenius University Teacher in Education Posted on 11.10.2026 Application deadline 30.10.2026 Jyväskylän yliopisto University Teacher in Education and Adult education Posted on 9.10.2026 Application deadline 1.11.2026 Faculty of Sport and Health Sciences Doctoral Researcher, LIDE -project Posted on 8.10.2026 Application deadline 1.11.2026 Department of Biological and Environmental Science Postdoctoral Researcher, Evolutionary Environmental Biology Posted on 22.9.2026 Application deadline 2.11.2026 Department of Physics Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials Posted on 16.9.2026 Application deadline 1.11.2026 The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026",
+   "deadline": "2026-11-02",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
+  },
+  {
+   "title": "University Teacher in communication and social interaction",
+   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-vuorovaikutus-ja-viestinta/8R2ywj?lang=en",
+   "unit": "The Centre for Multilingual Academic Communication",
+   "deadline": "2026-11-02",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Teaching"
   },
   {
    "title": "Valintasihteereitä opiskelijavalintojen tehtäviin",
@@ -231,7 +339,7 @@
   },
   {
    "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=91gr0vh6vy80k4kcoo8gsck0ow4w8kc",
    "unit": null,
    "deadline": "2026-11-02",
    "university": "Åbo Akademi University",
@@ -266,6 +374,33 @@
    "category": "Professor"
   },
   {
+   "title": "Tenure track -tehtävä, mediatutkimus (Apulaisprofessori tai Professori) / Tenure track position (Assistant Professor, Associate Professor or Professor) of Media Studies",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3179",
+   "unit": null,
+   "deadline": "2026-11-05",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "2 Doctoral Researchers, Exercise Physiology",
+   "url": "https://ats.talentadore.com/apply/2-vaitoskirjatutkijaa-liikuntafysiologia/DokY0j?lang=en",
+   "unit": "Faculty of Sport and Health Sciences",
+   "deadline": "2026-11-06",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Harjoittelija, opiskelija- ja hakijapalvelut",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3206",
+   "unit": null,
+   "deadline": "2026-11-06",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
    "title": "Postdoctoral Researcher, Mathematical Sciences, Faculty of Science",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:972516/",
    "unit": "Faculty of Science, Mathematical Sciences",
@@ -284,13 +419,40 @@
    "category": "Other"
   },
   {
+   "title": "University Teacher in Statistical Methods",
+   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-tilastomenetelmat/ZqJbJ6?lang=en",
+   "unit": "Faculty of Sport and Health Sciences",
+   "deadline": "2026-11-08",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Teaching"
+  },
+  {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=91gr0vh6vy80k4kcoo8gsck0ow4w8kc",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
    "university_short": "Åbo Akademi",
    "category": "Doctoral"
+  },
+  {
+   "title": "Innovaatioasiantuntija",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3210",
+   "unit": null,
+   "deadline": "2026-11-09",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
+   "title": "Digipedagogiikan asiantuntija",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3201",
+   "unit": null,
+   "deadline": "2026-11-10",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
   },
   {
    "title": "Doctoral Researcher (6 positions)",
@@ -329,13 +491,31 @@
    "category": "Other"
   },
   {
+   "title": "Tutkijakoulutuksen asiantuntija Tampereen yliopiston tutkijakouluun",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3207",
+   "unit": null,
+   "deadline": "2026-11-12",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Researcher"
+  },
+  {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=91gr0vh6vy80k4kcoo8gsck0ow4w8kc",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
    "university_short": "Åbo Akademi",
    "category": "Other"
+  },
+  {
+   "title": "4 Doctoral Researchers",
+   "url": "https://ats.talentadore.com/apply/4-doctoral-researchers/8KNVQ9",
+   "unit": "Faculty of Sport and Health Sciences",
+   "deadline": "2026-11-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
   },
   {
    "title": "Course assistants for the School of Engineering for the 2027 spring semester",
@@ -356,8 +536,26 @@
    "category": "Doctoral"
   },
   {
+   "title": "Doctoral Researcher in Evolutionary Biology",
+   "url": "https://ats.talentadore.com/apply/doctoral-researcher-in-evolutionary-biology/Zy10O2",
+   "unit": "Department of Biological and Environmental Science",
+   "deadline": "2026-11-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
    "title": "Doctoral Researcher in Occupational Cancer Epidemiology (NordExCan) / Väitöskirjatutkija NordExCan-tutkimushankkeeseen",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3202",
+   "unit": null,
+   "deadline": "2026-11-15",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher in Occupational Cancer Epidemiology (NordExCan) / Väitöskirjatutkija NordExCan-tutkimushankkeeseen",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3202",
    "unit": null,
    "deadline": "2026-11-15",
    "university": "Tampere University",
@@ -392,6 +590,15 @@
    "category": "Postdoc"
   },
   {
+   "title": "Research Funding Advisor or Senior Specialist",
+   "url": "https://ats.talentadore.com/apply/tutkimusrahoituksen-erityisasiantuntija-tai-asiantuntija/Zy17Wk?lang=en",
+   "unit": "Research and Innovation Services",
+   "deadline": "2026-11-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
+  },
+  {
    "title": "Doctoral Researcher (PhD Student), Finite Element Technology for Smooth Problems",
    "url": "https://uef.varbi.com/en/what:job/jobID:978702/type:job/where:4/apply:1",
    "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
@@ -402,7 +609,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=91gr0vh6vy80k4kcoo8gsck0ow4w8kc",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -428,6 +635,15 @@
    "category": "Professor"
   },
   {
+   "title": "Tenure track in Computational Physics (Assistant/Associate Professor or Professor), 2 positions / Laskennallisen fysiikan tenure track (Apulaisprofessori tai professori), 2 tehtävää",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3187",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
    "title": "Tenure track in Sustainable Polymeric Materials Processing (Assistant/Associate Professor or Professor) / Kestävien polymeerimateriaalien prosessoinnin tenure track (Apulaisprofessori tai professori)",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3191",
    "unit": null,
@@ -435,6 +651,24 @@
    "university": "Tampere University",
    "university_short": "Tampere",
    "category": "Professor"
+  },
+  {
+   "title": "Tenure track in Sustainable Polymeric Materials Processing (Assistant/Associate Professor or Professor) / Kestävien polymeerimateriaalien prosessoinnin tenure track (Apulaisprofessori tai professori)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3191",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Väitöskirjatutkija (Kielenvälitys monikielisessä rakennustyössä)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3203",
+   "unit": null,
+   "deadline": "2026-11-16",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher (PhD Student), 3 positions, Development of Data Science and AI for Spatial Data",
@@ -455,6 +689,15 @@
    "category": "Professor"
   },
   {
+   "title": "Doctoral Researcher in Psychology",
+   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia/8dRoGG?lang=en",
+   "unit": null,
+   "deadline": "2026-11-18",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
    "title": "Professor/Associate Professor, Forest-based Products and Services",
    "url": "https://uef.varbi.com/en/what:job/jobID:970155/type:job/where:4/apply:1",
    "unit": "The Faculty of Science, Forestry and Technology, School of Forest Sciences, Joensuu",
@@ -471,6 +714,33 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Other"
+  },
+  {
+   "title": "Yliopisto-opettaja (Talotekniikka)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3208",
+   "unit": null,
+   "deadline": "2026-11-19",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Teaching"
+  },
+  {
+   "title": "Postdoctoral Researcher in Accelerator-Based Neutron Physics for BNCT",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-accelerator-based-neutron-physics-for-bnct/Dgd54N",
+   "unit": "Department of Physics",
+   "deadline": "2026-11-20",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher in Radiation Effects in Power Electronics",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-radiation-effects-in-power-electronics/Dw1E7q",
+   "unit": "Department of Physics",
+   "deadline": "2026-11-20",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
   },
   {
    "title": "Doctoral Researcher, sustainability of Power-to-X (PtX) value chains",
@@ -491,6 +761,15 @@
    "category": "Other"
   },
   {
+   "title": "Research Director, Sports and Exercise Laboratory",
+   "url": "https://ats.talentadore.com/apply/tutkimusjohtaja-liikuntalaboratorio/ZAYpl7?lang=en",
+   "unit": "Faculty of Sport and Health Sciences",
+   "deadline": "2026-11-24",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
+  },
+  {
    "title": "Postdoctoral Researcher, Environmental Social Sciences and Digital Infrastructures",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974579/",
    "unit": "Faculty of Education and Psychology, General Education",
@@ -502,6 +781,15 @@
   {
    "title": "Assistant Professor (Tenure-track) in Economics / Apulaisprofessori (tenure track), taloustiede",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3205",
+   "unit": null,
+   "deadline": "2026-11-27",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Assistant Professor (Tenure-track) in Economics / Apulaisprofessori (tenure track), taloustiede",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3205",
    "unit": null,
    "deadline": "2026-11-27",
    "university": "Tampere University",
@@ -525,6 +813,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher in Disease Ecology",
+   "url": "https://ats.talentadore.com/apply/doctoral-researcher-in-disease-ecology/ZvnLrx",
+   "unit": "Department of Biological and Environmental Science",
+   "deadline": "2026-11-30",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher in condensed matter physics and two-dimensional (2D) Quantum Devices",
@@ -561,6 +858,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Postdoc"
+  },
+  {
+   "title": "Senior Lecturer in Special Education",
+   "url": "https://ats.talentadore.com/apply/yliopistonlehtori-erityispedagogiikka/m23kjV?lang=en",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Teaching"
   },
   {
    "title": "Tenure Track Assistant Professor in Inorganic Material Chemistry, Faculty of Technology",
