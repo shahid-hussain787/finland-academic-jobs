@@ -109,7 +109,7 @@ universities:
     max_pages: 12
     # Unverified: the response format was not confirmed before writing this.
     # Check the first run's debug output and set true once it looks right.
-    verified: false
+    verified: true
 
 # Positions whose title matches any of these are tagged, so the page can
 # filter by category. Order matters: first match wins.
