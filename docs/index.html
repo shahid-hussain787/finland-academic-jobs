@@ -282,23 +282,18 @@ fetch("jobs.json?t=" + Date.now())
     const when = new Date(data.generated_at);
     const hrs = Math.round((Date.now() - when) / 3600000);
     const ok = (data.sources || []).filter(s => s.status === "ok").length;
-    const linkOnly = (data.sources || []).filter(s => s.status === "link_only");
+    // Sources whose positions are not in the list below, for either reason.
+    const notListed = (data.sources || [])
+      .filter(s => s.status === "link_only" || s.status === "error");
     document.getElementById("status").textContent =
       `${state.jobs.length} positions from ${ok} universities · last checked ` +
       (hrs < 1 ? "less than an hour ago" : hrs < 48 ? `${hrs} hours ago` : `${Math.round(hrs/24)} days ago`);
 
-    const broken = (data.sources || []).filter(s => s.status === "error");
     const unverified = (data.sources || []).filter(s => s.status === "ok" && s.verified === false);
-    if (broken.length || hrs > 72) {
+    if (hrs > 72) {
       const n = document.createElement("div");
       n.className = "notice";
-      let html = "";
-      if (hrs > 72) html += "<p>This list hasn't updated in over three days, so it may be out of date.</p>";
-      if (broken.length) {
-        html += "<p>Couldn't read these sites on the last run — check them directly:</p><ul>" +
-          broken.map(s => `<li><a href="${s.url}" rel="noopener">${esc(s.name)}</a></li>`).join("") + "</ul>";
-      }
-      n.innerHTML = html;
+      n.innerHTML = "<p>This list hasn't updated in over three days, so it may be out of date.</p>";
       document.getElementById("notices").appendChild(n);
     }
     if (unverified.length) {
@@ -317,24 +312,30 @@ fetch("jobs.json?t=" + Date.now())
         const li = document.createElement("li");
         // Count comes from the last run. A zero is worth flagging rather than
         // hiding: it means go and look at that university's page yourself.
-        const n = s.status === "link_only" ? "browse directly"
-          : s.status === "error" ? "unreachable"
+        // A visitor doesn't care whether a source is deliberately not
+        // scraped or broke this morning — either way the answer is the
+        // same: go and look at the university's own page.
+        const n = notListed.includes(s) ? "see their site"
           : s.count === 0 ? "none found"
           : s.count === 1 ? "1 open"
           : `${s.count} open`;
         li.innerHTML =
           `<a href="${s.url}" rel="noopener">${esc(s.name)}</a>` +
-          `<span class="n${s.count || s.status === "link_only" ? "" : " zero"}">${n}</span>`;
+          `<span class="n${s.count ? "" : " zero"}">${n}</span>`;
         srcList.appendChild(li);
       });
-    if (linkOnly.length) {
+    if (notListed.length) {
+      const names = notListed.map(s => s.name);
+      const joined = names.length > 1
+        ? names.slice(0, -1).join(", ") + " and " + names[names.length - 1]
+        : names[0];
       const note = document.createElement("p");
       note.className = "meta";
       note.style.marginTop = ".75rem";
       note.textContent =
-        linkOnly.map(s => s.name).join(" and ") +
-        (linkOnly.length > 1 ? " are" : " is") +
-        " not included in the list below — open the link to see their positions.";
+        `Positions at ${joined} are not shown below. ` +
+        `Click the university name above to open ${names.length > 1 ? "their" : "its"} ` +
+        `job page and check directly.`;
       document.getElementById("source-links").appendChild(note);
     }
     if (srcList.children.length) document.getElementById("source-links").hidden = false;
