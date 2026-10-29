@@ -306,8 +306,75 @@ def generic(html, base_url, cfg):
     return jobs
 
 
+# --------------------------------------------------------------------------
+# Jyväskylä (and anyone else on Talentadore). Server-rendered list where each
+# entry links out to ats.talentadore.com and carries two dates: "Posted on"
+# and "Application deadline". Anchoring on the link target rather than on CSS
+# classes makes this survive the site's next redesign.
+# --------------------------------------------------------------------------
+def talentadore(html, base_url, cfg):
+    soup = BeautifulSoup(html, "html.parser")
+    jobs, seen = [], set()
+
+    for link in soup.find_all("a", href=True):
+        if "talentadore.com/apply" not in link["href"]:
+            continue
+        title = _clean(link.get_text())
+        if not title or link["href"] in seen:
+            continue
+        seen.add(link["href"])
+
+        # Walk up until the container also holds the deadline label, so we
+        # don't accidentally read the "Posted on" date instead.
+        deadline, unit = None, None
+        holder = link.parent
+        for _ in range(6):
+            if holder is None:
+                break
+            text = _clean(holder.get_text())
+            if "Application deadline" in text or "Hakuaika" in text:
+                tail = re.split(r"Application deadline|Hakuaika p\u00e4\u00e4ttyy", text)[-1]
+                deadline = _parse_date(tail)
+                head = text.split(title)[0]
+                head = re.sub(r"(?i)university of jyv\u00e4skyl\u00e4", "", head)
+                unit = _clean(head) or None
+                break
+            holder = holder.parent
+
+        jobs.append({
+            "title": title,
+            "url": urljoin(base_url, link["href"]),
+            "unit": unit,
+            "deadline": deadline,
+        })
+
+    if not jobs:
+        raise ValueError("no Talentadore job links found \u2014 layout may have changed")
+    return jobs
+
+
+def language_links(html, base_url):
+    """Other-language listings on a rekrytointi.com page.
+
+    These sites hand out a session token and ignore ?lang= / ?list= unless the
+    request carries it, so the only way in is to follow the links the page
+    itself prints, token included. That matters: Vaasa advertises almost
+    everything in Finnish and nothing in English.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    found = []
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "o=A_LOJ" in href and re.search(r"list=\d+", href) and "lang=" in href:
+            url = urljoin(base_url, href)
+            if url not in found:
+                found.append(url)
+    return found
+
+
 PARSERS = {
     "varbi": varbi,
+    "talentadore": talentadore,
     "rekrytointi": rekrytointi,
     "aalto": aalto,
     "tampere": tampere,

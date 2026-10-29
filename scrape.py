@@ -18,7 +18,7 @@ from pathlib import Path
 import requests
 import yaml
 
-from scrapers import PARSERS, find_next_page
+from scrapers import PARSERS, find_next_page, language_links
 
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "universities.yml"
@@ -37,8 +37,15 @@ REQUEST_DELAY = 2.0   # seconds between requests, to stay polite
 TIMEOUT = 30
 
 
+# A single session for the whole run. Some recruitment systems hand out a
+# session cookie and quietly ignore ?lang= and ?list= without it, which is
+# why a plain request for a Finnish listing comes back in English.
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
+
 def fetch(url):
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    resp = SESSION.get(url, timeout=TIMEOUT)
     resp.raise_for_status()
     resp.encoding = resp.apparent_encoding or resp.encoding
     return resp.text
@@ -64,6 +71,27 @@ def scrape_url(url, uni, parser, parser_name, debug=False):
     jobs = parser(html, url, uni)
     seen_pages = {url}
     seen_jobs = {j["url"] for j in jobs}
+
+    # Some sites print their other-language listings as links carrying a
+    # session token. Following those is the only way to reach them.
+    if uni.get("follow_languages"):
+        for lang_url in language_links(html, url):
+            if lang_url in seen_pages:
+                continue
+            seen_pages.add(lang_url)
+            time.sleep(REQUEST_DELAY)
+            try:
+                lang_html = fetch(lang_url)
+                more = parser(lang_html, lang_url, uni)
+            except Exception as exc:
+                if debug:
+                    print(f"      language page failed: {type(exc).__name__}: {exc}")
+                continue
+            fresh = [j for j in more if j["url"] not in seen_jobs]
+            seen_jobs.update(j["url"] for j in fresh)
+            jobs.extend(fresh)
+            if debug and fresh:
+                print(f"      +{len(fresh)} from another language listing")
 
     max_pages = uni.get("max_pages", 10)
     page_url = url

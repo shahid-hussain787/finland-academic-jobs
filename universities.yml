@@ -35,11 +35,15 @@ universities:
   - name: University of Vaasa
     short: Vaasa
     urls:
-      # The English list is usually empty - Vaasa advertises mostly in Finnish.
       - https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en
-      - https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=1&lang=fi
     parser: rekrytointi
     verified: true
+    # Vaasa advertises almost everything in Finnish and often nothing in
+    # English. Asking for the Finnish list by URL does not work: the site
+    # hands out a session token and silently redirects back to English
+    # without it. follow_languages makes the scraper follow the language
+    # links the page itself prints, token included.
+    follow_languages: true
 
   - name: Åbo Akademi University
     short: Åbo Akademi
@@ -47,6 +51,7 @@ universities:
       - https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en
     parser: rekrytointi
     verified: true
+    follow_languages: true
 
   - name: Tampere University
     short: Tampere
@@ -71,12 +76,11 @@ universities:
     short: Jyväskylä
     urls:
       - https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla
-    parser: generic
+    # JYU posts to Talentadore, a different system again. Anchoring on that
+    # link target is far more reliable than the old guess-the-links parser,
+    # which is why this was reporting nothing.
+    parser: talentadore
     verified: true
-    generic:
-      item_selector: "main a"
-      link_attr: href
-      must_match: "(?i)(professor|researcher|doctoral|postdoc|lecturer|teacher|tutkija|väitöskirja)"
 
   # --- Returning nothing so far. Their listings are almost certainly loaded
   # --- by JavaScript, so there is nothing in the HTML to parse. See the
