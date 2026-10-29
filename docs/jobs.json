@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-28T11:18:51+00:00",
- "job_count": 63,
+ "generated_at": "2026-10-29T11:29:29+00:00",
+ "job_count": 62,
  "sources": [
   {
    "name": "University of Oulu",
@@ -47,7 +47,7 @@
    "short": "UEF",
    "url": "https://www.uef.fi/en/open-positions",
    "status": "ok",
-   "count": 10,
+   "count": 9,
    "verified": true
   },
   {
@@ -76,15 +76,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Trainee, the Finnish University Partnership for International Development (UniPID)",
-   "url": "https://uef.varbi.com/en/what:job/jobID:979246/type:job/where:4/apply:1",
-   "unit": "The Faculty of Social Sciences and Business Studies, Joensuu",
-   "deadline": "2026-10-28",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Other"
-  },
   {
    "title": "Doctoral Researcher/Project Researcher, Molecular Physiology",
    "url": "https://uef.varbi.com/en/what:job/jobID:969768/type:job/where:4/apply:1",
@@ -123,7 +114,7 @@
   },
   {
    "title": "Universitetslärare i engelska, Utbildningsservice",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=3wrccl7b2rs40g4o404sgckg8g4wo0w",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
    "unit": null,
    "deadline": "2026-10-30",
    "university": "Åbo Akademi University",
@@ -240,7 +231,7 @@
   },
   {
    "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=3wrccl7b2rs40g4o404sgckg8g4wo0w",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
    "unit": null,
    "deadline": "2026-11-02",
    "university": "Åbo Akademi University",
@@ -294,7 +285,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=3wrccl7b2rs40g4o404sgckg8g4wo0w",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -339,7 +330,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=3wrccl7b2rs40g4o404sgckg8g4wo0w",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -411,7 +402,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=3wrccl7b2rs40g4o404sgckg8g4wo0w",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=9m2esrr2pyck08w4sosoc4ks4w44okw",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
