@@ -98,8 +98,11 @@ universities:
   - name: LUT University
     short: LUT
     urls:
-      - https://lut.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1
-    link: https://www.lut.fi/en/careers
+      # Same URL shape as Hanken, which works. The index.php form of this
+      # address did not.
+      - https://lut.rekrytointi.com/paikat/?o=A_LOJ&list=1
+      - https://lut.rekrytointi.com/paikat/?o=A_LOJ&list=4
+    link: https://www.lut.fi/en/about-us/come-work-us/open-positions
     parser: rekrytointi
     verified: true
     follow_languages: true
