@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T11:36:12+00:00",
+ "generated_at": "2026-10-30T11:42:38+00:00",
  "job_count": 101,
  "sources": [
   {
@@ -69,10 +69,10 @@
   {
    "name": "LUT University",
    "short": "LUT",
-   "url": "https://www.lut.fi/en/careers",
+   "url": "https://www.lut.fi/en/about-us/come-work-us/open-positions",
    "status": "error",
    "count": 0,
-   "error": "RuntimeError: https://lut.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1 -> ValueError: no table rows parsed — rekrytointi layout may have changed",
+   "error": "RuntimeError: https://lut.rekrytointi.com/paikat/?o=A_LOJ&list=1 -> ValueError: no table rows parsed — rekrytointi layout may have changed | https://lut.rekrytointi.com/paikat/?o=A_LOJ&list=4 -> ValueError: no table rows parsed — rekrytointi layout may have changed",
    "verified": true
   },
   {
@@ -140,7 +140,7 @@
   },
   {
    "title": "Universitetslärare i engelska, Utbildningsservice",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=3x5ss57mgusk4kg08ksw400gk044gkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1044&key=&o=A_RJ&rspvt=nry6ipcffu8sc4gk4g8o04oo8s80soo",
    "unit": null,
    "deadline": "2026-10-30",
    "university": "Åbo Akademi University",
@@ -356,7 +356,7 @@
   },
   {
    "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=3x5ss57mgusk4kg08ksw400gk044gkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=nry6ipcffu8sc4gk4g8o04oo8s80soo",
    "unit": null,
    "deadline": "2026-11-02",
    "university": "Åbo Akademi University",
@@ -446,7 +446,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=3x5ss57mgusk4kg08ksw400gk044gkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=nry6ipcffu8sc4gk4g8o04oo8s80soo",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -518,7 +518,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=3x5ss57mgusk4kg08ksw400gk044gkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=nry6ipcffu8sc4gk4g8o04oo8s80soo",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -626,7 +626,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=3x5ss57mgusk4kg08ksw400gk044gkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=nry6ipcffu8sc4gk4g8o04oo8s80soo",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -635,7 +635,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=e52f2wtv4kooc0og0gwkgkcw0wg04k8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=rts95tff06oos4088occ8gokck00o0o",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -698,7 +698,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=e52f2wtv4kooc0og0gwkgkcw0wg04k8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=rts95tff06oos4088occ8gokck00o0o",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -779,7 +779,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=e52f2wtv4kooc0og0gwkgkcw0wg04k8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=rts95tff06oos4088occ8gokck00o0o",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -869,7 +869,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=e52f2wtv4kooc0og0gwkgkcw0wg04k8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=rts95tff06oos4088occ8gokck00o0o",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
