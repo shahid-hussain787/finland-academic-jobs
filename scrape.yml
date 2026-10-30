@@ -41,13 +41,36 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/jobs.json
-          if git diff --staged --quiet; then
-            echo "No change in open positions."
-          else
+
+          # The scrape takes about a minute, and anything you commit during
+          # that minute leaves this checkout behind the remote, so the push
+          # is refused. Rather than merge, rebuild on top of whatever main
+          # looks like now: jobs.json is regenerated from scratch every run,
+          # so there is never anything in it worth merging.
+          for attempt in 1 2 3; do
+            cp docs/jobs.json /tmp/jobs.json
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/jobs.json docs/jobs.json
+
+            git add docs/jobs.json
+            if git diff --staged --quiet; then
+              echo "No change in open positions."
+              exit 0
+            fi
+
             git commit -m "Update positions ($(date -u +%Y-%m-%d))"
-            git push
-          fi
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected — someone committed while we were running. Retrying."
+            sleep 5
+          done
+
+          echo "Could not push after 3 attempts."
+          exit 1
 
       - name: Open an issue if a source is failing
         if: always()
