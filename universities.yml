@@ -86,6 +86,24 @@ universities:
     parser: talentadore
     verified: true
 
+  - name: Hanken School of Economics
+    short: Hanken
+    urls:
+      - https://hanken.rekrytointi.com/paikat/?o=A_LOJ&list=2
+    link: https://www.hanken.fi/en/about-hanken/work-hanken
+    parser: rekrytointi
+    verified: true
+    follow_languages: true
+
+  - name: LUT University
+    short: LUT
+    urls:
+      - https://lut.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1
+    link: https://www.lut.fi/en/careers
+    parser: rekrytointi
+    verified: true
+    follow_languages: true
+
   # --- Listed for browsing only: not scraped, no parser runs. The site
   # --- shows these with a "browse directly" link instead of a position
   # --- count, so nobody mistakes an empty result for "nothing is open".
@@ -97,6 +115,15 @@ universities:
     # Turku's listings are served from rekry.saima.fi, whose robots.txt
     # disallows automated access. We respect that and do not scrape it.
     # Please don't "fix" this by ignoring robots.txt.
+    link_only: true
+
+  - name: University of the Arts Helsinki
+    short: Uniarts
+    urls:
+      - https://www.uniarts.fi/en/open-positions/
+    # Their own recruitment system; page structure not yet confirmed, so
+    # not scraped. Check it with: python scrape.py --debug --only uniarts
+    # after switching link_only for a parser.
     link_only: true
 
   - name: University of Helsinki
