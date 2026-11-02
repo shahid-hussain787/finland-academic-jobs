@@ -89,8 +89,11 @@ universities:
   - name: Hanken School of Economics
     short: Hanken
     urls:
+      # The listing page itself is perfectly readable by a human, so there
+      # is no separate `link:` here. Do not add one without opening it
+      # first — an invented address gives visitors a 404.
+      - https://hanken.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&lang=en
       - https://hanken.rekrytointi.com/paikat/?o=A_LOJ&list=2
-    link: https://www.hanken.fi/en/about-hanken/work-hanken
     parser: rekrytointi
     verified: true
     follow_languages: true
