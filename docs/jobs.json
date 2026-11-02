@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-01T11:48:18+00:00",
- "job_count": 89,
+ "generated_at": "2026-11-02T07:47:51+00:00",
+ "job_count": 82,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 15,
+   "count": 11,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 18,
+   "count": 15,
    "verified": true
   },
   {
@@ -103,69 +103,6 @@
  ],
  "jobs": [
   {
-   "title": "Biostatistician, Lifecourse Medicine, Faculty of Medicine",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:964775/",
-   "unit": "Faculty of Medicine, Clinical Medicine",
-   "deadline": "2026-11-01",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Other"
-  },
-  {
-   "title": "Doctoral Researcher, LIDE -project",
-   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-lide-hanke/ZzJ2EB?lang=en",
-   "unit": "Faculty of Sport and Health Sciences",
-   "deadline": "2026-11-01",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Doctoral"
-  },
-  {
-   "title": "Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials",
-   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-condensed-matter-theory-in-the-centre-of-excellence-in-quantum-materials/DokgaK",
-   "unit": "Department of Physics",
-   "deadline": "2026-11-01",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Projektisuunnittelija",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:973275/",
-   "unit": "Humanistinen tiedekunta, Giellagas-instituutti",
-   "deadline": "2026-11-01",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Other"
-  },
-  {
-   "title": "Tutkijatohtori, Giellagas-instituutti",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:973271/",
-   "unit": "Humanistinen tiedekunta, Giellagas-instituutti",
-   "deadline": "2026-11-01",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Postdoc"
-  },
-  {
-   "title": "University Teacher in Education and Adult education",
-   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-kasvatustiede-ja-aikuiskasvatustiede/ZqJA5g?lang=en",
-   "unit": "Jyväskylän yliopisto",
-   "deadline": "2026-11-01",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Teaching"
-  },
-  {
-   "title": "Yliopisto-opettaja, kauppatieteet",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:970669/",
-   "unit": "Oulun yliopiston kauppakorkeakoulu",
-   "deadline": "2026-11-01",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Teaching"
-  },
-  {
    "title": "Datanhallinnan asiantuntija kirjastoon Johtamisen ja talouden tiedekunnan (MAB) lähipalveluihin",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3198",
    "unit": null,
@@ -195,7 +132,7 @@
   {
    "title": "Network Designer",
    "url": "https://ats.talentadore.com/apply/verkkosuunnittelija/Dap9qJ?lang=en",
-   "unit": "Faculty of Sport and Health Sciences Doctoral Researcher, LIDE -project Posted on 8.10.2026 Application deadline 1.11.2026 Department of Biological and Environmental Science Postdoctoral Researcher, Evolutionary Environmental Biology Posted on 22.9.2026 Application deadline 2.11.2026 Department of Physics Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials Posted on 16.9.2026 Application deadline 1.11.2026 The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026 Project Manager Posted on 7.7.2026",
+   "unit": "The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026 Project Manager Posted on 7.7.2026",
    "deadline": "2026-11-02",
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
@@ -213,7 +150,7 @@
   {
    "title": "Project Manager",
    "url": "https://ats.talentadore.com/apply/projektipaallikko/ZjaOwp?lang=en",
-   "unit": "Faculty of Sport and Health Sciences Doctoral Researcher, LIDE -project Posted on 8.10.2026 Application deadline 1.11.2026 Department of Biological and Environmental Science Postdoctoral Researcher, Evolutionary Environmental Biology Posted on 22.9.2026 Application deadline 2.11.2026 Department of Physics Postdoctoral Researcher in Condensed Matter Theory in the Centre of Excellence in Quantum Materials Posted on 16.9.2026 Application deadline 1.11.2026 The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026",
+   "unit": "The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026",
    "deadline": "2026-11-02",
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
@@ -239,7 +176,7 @@
   },
   {
    "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=qucpftqs1g0cs88cc44co44k44koso8",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=n3pqylxa71w8woooco04o0c8kc4w8go",
    "unit": null,
    "deadline": "2026-11-02",
    "university": "Åbo Akademi University",
@@ -329,7 +266,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=qucpftqs1g0cs88cc44co44k44koso8",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=n3pqylxa71w8woooco04o0c8kc4w8go",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -401,7 +338,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=qucpftqs1g0cs88cc44co44k44koso8",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=n3pqylxa71w8woooco04o0c8kc4w8go",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -509,7 +446,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=qucpftqs1g0cs88cc44co44k44koso8",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=n3pqylxa71w8woooco04o0c8kc4w8go",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -518,7 +455,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=qoad3st2xkgss40ow4ocgk484ksso08",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=gme8jvrhvzsw8k8osw8ccck0wokkwkc",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -581,7 +518,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=qoad3st2xkgss40ow4ocgk484ksso08",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=gme8jvrhvzsw8k8osw8ccck0wokkwkc",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -662,7 +599,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=qoad3st2xkgss40ow4ocgk484ksso08",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=gme8jvrhvzsw8k8osw8ccck0wokkwkc",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -698,7 +635,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=qucpftqs1g0cs88cc44co44k44koso8",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=n3pqylxa71w8woooco04o0c8kc4w8go",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -761,7 +698,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=qoad3st2xkgss40ow4ocgk484ksso08",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=gme8jvrhvzsw8k8osw8ccck0wokkwkc",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
