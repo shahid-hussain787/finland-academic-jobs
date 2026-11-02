@@ -74,7 +74,7 @@ jobs:
 
       - name: Open an issue if a source is failing
         if: always()
-                continue-on-error: true
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
