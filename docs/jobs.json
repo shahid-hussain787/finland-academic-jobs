@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-02T07:55:35+00:00",
- "job_count": 82,
+ "generated_at": "2026-11-03T12:46:04+00:00",
+ "job_count": 86,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 11,
+   "count": 12,
    "verified": true
   },
   {
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 20,
+   "count": 21,
    "verified": true
   },
   {
@@ -31,7 +31,7 @@
    "short": "Åbo Akademi",
    "url": "https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en",
    "status": "ok",
-   "count": 5,
+   "count": 4,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 18,
+   "count": 17,
    "verified": true
   },
   {
@@ -47,7 +47,7 @@
    "short": "UEF",
    "url": "https://www.uef.fi/en/open-positions",
    "status": "ok",
-   "count": 9,
+   "count": 11,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 15,
+   "count": 16,
    "verified": true
   },
   {
@@ -63,7 +63,7 @@
    "short": "Hanken",
    "url": "https://hanken.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&lang=en",
    "status": "ok",
-   "count": 4,
+   "count": 5,
    "verified": true
   },
   {
@@ -102,87 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Datanhallinnan asiantuntija kirjastoon Johtamisen ja talouden tiedekunnan (MAB) lähipalveluihin",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3198",
-   "unit": null,
-   "deadline": "2026-11-02",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Other"
-  },
-  {
-   "title": "Datanhallinnan asiantuntija kirjastoon Lääketieteen ja terveysteknologian tiedekunnan (MET) lähipalveluihin",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3199",
-   "unit": null,
-   "deadline": "2026-11-02",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Other"
-  },
-  {
-   "title": "Koulunkäynninohjaaja, Oulun normaalikoulu",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:979950/",
-   "unit": "Kasvatustieteiden ja psykologian tiedekunta, Oulun yliopiston harjoittelukoulu",
-   "deadline": "2026-11-02",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Other"
-  },
-  {
-   "title": "Network Designer",
-   "url": "https://ats.talentadore.com/apply/verkkosuunnittelija/Dap9qJ?lang=en",
-   "unit": "The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026 Project Manager Posted on 7.7.2026",
-   "deadline": "2026-11-02",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Other"
-  },
-  {
-   "title": "Postdoctoral Researcher, Evolutionary Environmental Biology",
-   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-evolutionary-environmental-biology/ZvnepW",
-   "unit": "Department of Biological and Environmental Science",
-   "deadline": "2026-11-02",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Project Manager",
-   "url": "https://ats.talentadore.com/apply/projektipaallikko/ZjaOwp?lang=en",
-   "unit": "The Centre for Multilingual Academic Communication University Teacher in communication and social interaction Posted on 10.9.2026 Application deadline 2.11.2026",
-   "deadline": "2026-11-02",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Other"
-  },
-  {
-   "title": "University Teacher in communication and social interaction",
-   "url": "https://ats.talentadore.com/apply/yliopistonopettaja-vuorovaikutus-ja-viestinta/8R2ywj?lang=en",
-   "unit": "The Centre for Multilingual Academic Communication",
-   "deadline": "2026-11-02",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Teaching"
-  },
-  {
-   "title": "Valintasihteereitä opiskelijavalintojen tehtäviin",
-   "url": "https://www.aalto.fi/en/open-positions/valintasihteereita-opiskelijavalintojen-tehtaviin",
-   "unit": null,
-   "deadline": "2026-11-02",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Other"
-  },
-  {
-   "title": "Verksamhetsledare för Skolresurs",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1047&key=&o=A_RJ&rspvt=ixvnsyy519cg40sogow8s08884s8kkc",
-   "unit": null,
-   "deadline": "2026-11-02",
-   "university": "Åbo Akademi University",
-   "university_short": "Åbo Akademi",
-   "category": "Other"
-  },
   {
    "title": "Staff Scientist for OtaNano Quantum-Computing Infrastructure",
    "url": "https://www.aalto.fi/en/open-positions/staff-scientist-for-otanano-quantum-computing-infrastructure",
@@ -266,7 +185,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=ixvnsyy519cg40sogow8s08884s8kkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -338,7 +257,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=ixvnsyy519cg40sogow8s08884s8kkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -353,6 +272,15 @@
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
    "category": "Doctoral"
+  },
+  {
+   "title": "Assistant Controller",
+   "url": "https://www.aalto.fi/en/open-positions/assistant-controller-4",
+   "unit": null,
+   "deadline": "2026-11-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
   },
   {
    "title": "Course assistants for the School of Engineering for the 2027 spring semester",
@@ -418,6 +346,15 @@
    "category": "Other"
   },
   {
+   "title": "Network Designer",
+   "url": "https://ats.talentadore.com/apply/verkkosuunnittelija/Dap9qJ?lang=en",
+   "unit": "Faculty of Sport and Health Sciences 2 Doctoral Researchers, Exercise Physiology Posted on 12.10.2026 Application deadline 6.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026 Project Manager Posted on 7.7.2026",
+   "deadline": "2026-11-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
+  },
+  {
    "title": "Postdoctoral Researcher, Ecology and Genetics",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:968327/",
    "unit": "Faculty of Science, Ecology and Genetics",
@@ -425,6 +362,15 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Postdoc"
+  },
+  {
+   "title": "Project Manager",
+   "url": "https://ats.talentadore.com/apply/projektipaallikko/ZjaOwp?lang=en",
+   "unit": "Faculty of Sport and Health Sciences 2 Doctoral Researchers, Exercise Physiology Posted on 12.10.2026 Application deadline 6.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026",
+   "deadline": "2026-11-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Other"
   },
   {
    "title": "Research Funding Advisor or Senior Specialist",
@@ -446,7 +392,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=ixvnsyy519cg40sogow8s08884s8kkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -455,7 +401,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=czsk25v8rz4gwk08k8co4kwkw4wog4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -518,7 +464,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=czsk25v8rz4gwk08k8co4kwkw4wog4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -580,6 +526,15 @@
    "category": "Teaching"
   },
   {
+   "title": "Doctoral Researcher in Psychology and Cognitive neuroscience",
+   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia-ja-kognitiivinen-neurotiede/Zy1dQ7?lang=en",
+   "unit": null,
+   "deadline": "2026-11-20",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
    "title": "Postdoctoral Researcher in Accelerator-Based Neutron Physics for BNCT",
    "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-accelerator-based-neutron-physics-for-bnct/Dgd54N",
    "unit": "Department of Physics",
@@ -599,7 +554,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=czsk25v8rz4gwk08k8co4kwkw4wog4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -635,12 +590,39 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=ixvnsyy519cg40sogow8s08884s8kkc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
    "university_short": "Åbo Akademi",
    "category": "Other"
+  },
+  {
+   "title": "Markkinoinnin asiantuntija",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3212",
+   "unit": null,
+   "deadline": "2026-11-24",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher (Educational Sciences and Psychology)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:986428/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, Joensuu",
+   "deadline": "2026-11-24",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher (Humanities and Theology)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:986407/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, Joensuu",
+   "deadline": "2026-11-24",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Postdoc"
   },
   {
    "title": "Research Director, Sports and Exercise Laboratory",
@@ -698,7 +680,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=czsk25v8rz4gwk08k8co4kwkw4wog4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -751,6 +733,33 @@
    "category": "Other"
   },
   {
+   "title": "Postdoctoral Researcher in Economics / Postdoktoral forskare i nationalekonomi",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=408&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Hanken School of Economics",
+   "university_short": "Hanken",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher positions in Mathematics",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-positions-in-mathematics/8ryxja",
+   "unit": "Department of Mathematics and Statistics",
+   "deadline": "2026-11-30",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher, Ecology and Genetics",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:984909/",
+   "unit": "Faculty of Science, Ecology and Genetics",
+   "deadline": "2026-11-30",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
    "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
    "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
    "unit": null,
@@ -758,6 +767,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Postdoc"
+  },
+  {
+   "title": "Project Researcher in genomics of endangered plant species",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:981695/",
+   "unit": "Service and separate units, Biodiversity Unit",
+   "deadline": "2026-11-30",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Researcher"
   },
   {
    "title": "Senior Lecturer in Special Education",
@@ -796,6 +814,15 @@
    "category": "Doctoral"
   },
   {
+   "title": "Staff Scientist in Quantum & Cryogenic RF Measurements",
+   "url": "https://ats.talentadore.com/apply/staff-scientist-in-quantum-cryogenic-rf-measurements/m5nkO4",
+   "unit": "Department of Physics",
+   "deadline": "2026-12-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Researcher"
+  },
+  {
    "title": "Postdoctoral researcher in Cloud and Network Computing",
    "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-cloud-and-network-computing",
    "unit": null,
@@ -812,6 +839,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Postdoc"
+  },
+  {
+   "title": "Business Developers in Deep Tech (R2B)",
+   "url": "https://www.aalto.fi/en/open-positions/business-developers-in-deep-tech-r2b",
+   "unit": null,
+   "deadline": "2027-01-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
   },
   {
    "title": "Visiting Researcher in Aalto University School of Arts, Design and Architecture (unfunded position)",
