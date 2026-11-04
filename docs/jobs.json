@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T12:46:04+00:00",
- "job_count": 86,
+ "generated_at": "2026-11-04T12:57:59+00:00",
+ "job_count": 93,
  "sources": [
   {
    "name": "University of Oulu",
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 21,
+   "count": 23,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 17,
+   "count": 22,
    "verified": true
   },
   {
@@ -185,7 +185,7 @@
   },
   {
    "title": "Doctoral researcher in the Study of Religions",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1050&key=&o=A_RJ&rspvt=kvxx37mt7lcosc4s0skswwsw44osgkg",
    "unit": null,
    "deadline": "2026-11-09",
    "university": "Åbo Akademi University",
@@ -256,8 +256,17 @@
    "category": "Researcher"
   },
   {
+   "title": "HR Generalist",
+   "url": "https://www.aalto.fi/en/open-positions/hr-generalist-15",
+   "unit": null,
+   "deadline": "2026-11-13",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=kvxx37mt7lcosc4s0skswwsw44osgkg",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -392,7 +401,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=kvxx37mt7lcosc4s0skswwsw44osgkg",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -401,7 +410,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=ideijj8s8xwg84k8sk4s0s4c4swgos4",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -464,7 +473,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=ideijj8s8xwg84k8sk4s0s4c4swgos4",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -554,7 +563,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=ideijj8s8xwg84k8sk4s0s4c4swgos4",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -590,7 +599,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=bpn9lhxntxc0k00w080cw00g0swk04g",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=kvxx37mt7lcosc4s0skswwsw44osgkg",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -634,6 +643,15 @@
    "category": "Other"
   },
   {
+   "title": "Founder Sprint Coordinator, Aalto Founder School",
+   "url": "https://www.aalto.fi/en/open-positions/founder-sprint-coordinator-aalto-founder-school",
+   "unit": null,
+   "deadline": "2026-11-25",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
    "title": "Postdoctoral Researcher, Environmental Social Sciences and Digital Infrastructures",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974579/",
    "unit": "Faculty of Education and Psychology, General Education",
@@ -641,6 +659,33 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Postdoc"
+  },
+  {
+   "title": "Tenure track position (Urban planning and transitions) / Tenure track -tehtävä (Yhdyskuntasuunnittelu)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3213",
+   "unit": null,
+   "deadline": "2026-11-26",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Tenure track position (Urban planning and transitions) / Tenure track -tehtävä (Yhdyskuntasuunnittelu)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3213",
+   "unit": null,
+   "deadline": "2026-11-26",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Tietoasiantuntija, Opetus- ja neuvontapalvelut -tiimiin",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3214",
+   "unit": null,
+   "deadline": "2026-11-26",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
   },
   {
    "title": "Assistant Professor (Tenure-track) in Economics / Apulaisprofessori (tenure track), taloustiede",
@@ -680,7 +725,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=ideijj8s8xwg84k8sk4s0s4c4swgos4",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -734,7 +779,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics / Postdoktoral forskare i nationalekonomi",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=408&key=&o=A_RJ&rspvt=svfecp3ieg0gcs8s8cocoggw8kgoksc",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=408&key=&o=A_RJ&rspvt=ideijj8s8xwg84k8sk4s0s4c4swgos4",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -803,6 +848,24 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Teaching"
+  },
+  {
+   "title": "Postdoctoral Research Fellow in Economics / Tutkijatohtori (taloustiede)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3215",
+   "unit": null,
+   "deadline": "2026-12-13",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Research Fellow in Economics / Tutkijatohtori (taloustiede)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3215",
+   "unit": null,
+   "deadline": "2026-12-13",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Postdoc"
   },
   {
    "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
