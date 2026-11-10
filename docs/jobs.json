@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-09T13:51:13+00:00",
- "job_count": 96,
+ "generated_at": "2026-11-10T13:26:46+00:00",
+ "job_count": 98,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 12,
+   "count": 13,
    "verified": true
   },
   {
@@ -31,7 +31,7 @@
    "short": "Åbo Akademi",
    "url": "https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en",
    "status": "ok",
-   "count": 3,
+   "count": 5,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 27,
+   "count": 26,
    "verified": true
   },
   {
@@ -102,15 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Innovaatioasiantuntija",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3210",
-   "unit": null,
-   "deadline": "2026-11-09",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Other"
-  },
   {
    "title": "Digipedagogiikan asiantuntija",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3201",
@@ -176,7 +167,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=2hwccm24iku80cw8o0c80cwgc4sk8kc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -311,7 +302,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=2hwccm24iku80cw8o0c80cwgc4sk8kc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -320,7 +311,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=pr12v7wdlass4kowkco4goc0gw4g4o8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -383,7 +374,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=pr12v7wdlass4kowkco4goc0gw4g4o8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -491,7 +482,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=pr12v7wdlass4kowkco4goc0gw4g4o8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -536,7 +527,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=2hwccm24iku80cw8o0c80cwgc4sk8kc",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -586,6 +577,15 @@
    "deadline": "2026-11-25",
    "university": "Aalto University",
    "university_short": "Aalto",
+   "category": "Other"
+  },
+  {
+   "title": "Sekreterare",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "unit": null,
+   "deadline": "2026-11-25",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
    "category": "Other"
   },
   {
@@ -662,7 +662,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=pr12v7wdlass4kowkco4goc0gw4g4o8",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -787,6 +787,15 @@
    "category": "Professor"
   },
   {
+   "title": "Tutkimusteknikko (mekatroniikka, raskaiden työkoneiden operaattori), Rakennus- ja yhdyskuntatekniikka, Teknillinen tiedekunta",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:975213/",
+   "unit": "Teknillinen tiedekunta, Rakennus- ja yhdyskuntatekniikka",
+   "deadline": "2026-11-30",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
    "title": "University Lecturer or Senior University Lecturer, Wood Science",
    "url": "https://www.aalto.fi/en/open-positions/university-lecturer-or-senior-university-lecturer-wood-science",
    "unit": null,
@@ -794,6 +803,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Teaching"
+  },
+  {
+   "title": "Dataskyddsombud",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "unit": null,
+   "deadline": "2026-12-01",
+   "university": "Åbo Akademi University",
+   "university_short": "Åbo Akademi",
+   "category": "Other"
   },
   {
    "title": "Associate Professor (Tenure Track), Data-Intensive Humanities",
