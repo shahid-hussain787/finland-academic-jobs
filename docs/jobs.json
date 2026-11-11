@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:26:46+00:00",
+ "generated_at": "2026-11-11T12:41:23+00:00",
  "job_count": 98,
  "sources": [
   {
@@ -103,24 +103,6 @@
  ],
  "jobs": [
   {
-   "title": "Digipedagogiikan asiantuntija",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3201",
-   "unit": null,
-   "deadline": "2026-11-10",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Other"
-  },
-  {
-   "title": "Doctoral Researcher (6 positions)",
-   "url": "https://uef.varbi.com/en/what:job/jobID:976051/type:job/where:4/apply:1",
-   "unit": "the Faculty of Social Sciences and Business Studies, Joensuu, Kuopio",
-   "deadline": "2026-11-10",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Doctoral"
-  },
-  {
    "title": "Associate Professor, AI Technologies and Industrial Applications",
    "url": "https://uef.varbi.com/en/what:job/jobID:970220/type:job/where:4/apply:1",
    "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
@@ -167,7 +149,7 @@
   },
   {
    "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=5je9l7mijvokks84o0wokw4wcos8w0w",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Åbo Akademi University",
@@ -302,7 +284,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=5je9l7mijvokks84o0wokw4wcos8w0w",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -311,7 +293,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=9pibx4rkw5k484c4skgssssskwgkgko",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -374,7 +356,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=9pibx4rkw5k484c4skgssssskwgkgko",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -481,8 +463,17 @@
    "category": "Postdoc"
   },
   {
+   "title": "Yliopisto-opettaja (suomi toisena kielenä)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3225",
+   "unit": null,
+   "deadline": "2026-11-20",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Teaching"
+  },
+  {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=9pibx4rkw5k484c4skgssssskwgkgko",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -527,7 +518,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=5je9l7mijvokks84o0wokw4wcos8w0w",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -571,8 +562,8 @@
    "category": "Other"
   },
   {
-   "title": "Founder Sprint Coordinator, Aalto Founder School",
-   "url": "https://www.aalto.fi/en/open-positions/founder-sprint-coordinator-aalto-founder-school",
+   "title": "Founder Sprint Operator, Aalto Founder School",
+   "url": "https://www.aalto.fi/en/open-positions/founder-sprint-operator-aalto-founder-school",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Aalto University",
@@ -581,7 +572,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=5je9l7mijvokks84o0wokw4wcos8w0w",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -662,12 +653,21 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=frw8pe4tye8gko4ssok00cw08gwscog",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=9pibx4rkw5k484c4skgssssskwgkgko",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
    "university_short": "Hanken",
    "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher (PhD student),Pathomechanisms and Novel Drug Optimization for AMD (MSCA-DN)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:988006/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, School of Pharmacy, Kuopio",
+   "deadline": "2026-11-30",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher (Railway wheel friction estimation and control) / Väitöskirjatutkija (rautatien pyörän kitkan estimointi ja hallinta)",
@@ -806,7 +806,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=4mczpo2va42s4s40k8ok4kckoc4wcsg",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=5je9l7mijvokks84o0wokw4wcos8w0w",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
