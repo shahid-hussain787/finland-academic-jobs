@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-12T13:44:44+00:00",
- "job_count": 101,
+ "generated_at": "2026-11-13T13:03:31+00:00",
+ "job_count": 107,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 14,
+   "count": 17,
    "verified": true
   },
   {
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 22,
+   "count": 24,
    "verified": true
   },
   {
@@ -23,7 +23,7 @@
    "short": "Vaasa",
    "url": "https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en",
    "status": "ok",
-   "count": 1,
+   "count": 2,
    "verified": true
   },
   {
@@ -31,7 +31,7 @@
    "short": "Åbo Akademi",
    "url": "https://abo.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&key=&lang=en",
    "status": "ok",
-   "count": 5,
+   "count": 4,
    "verified": true
   },
   {
@@ -47,7 +47,7 @@
    "short": "UEF",
    "url": "https://www.uef.fi/en/open-positions",
    "status": "ok",
-   "count": 12,
+   "count": 11,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 16,
+   "count": 18,
    "verified": true
   },
   {
@@ -103,39 +103,12 @@
  ],
  "jobs": [
   {
-   "title": "Teaching Coordinator",
-   "url": "https://uef.varbi.com/en/what:job/jobID:983060/type:job/where:4/apply:1",
-   "unit": "The Faculty of Social Sciences and Business Studies, Law School, Joensuu",
-   "deadline": "2026-11-12",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Other"
-  },
-  {
-   "title": "Tutkijakoulutuksen asiantuntija Tampereen yliopiston tutkijakouluun",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3207",
-   "unit": null,
-   "deadline": "2026-11-12",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Researcher"
-  },
-  {
    "title": "HR Generalist",
    "url": "https://www.aalto.fi/en/open-positions/hr-generalist-15",
    "unit": null,
    "deadline": "2026-11-13",
    "university": "Aalto University",
    "university_short": "Aalto",
-   "category": "Other"
-  },
-  {
-   "title": "Universitetslektor eller universitetslärare i finska (1.1-31.12.2027)",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1049&key=&o=A_RJ&rspvt=tty83von11ws4c0ggco4wck0ogkocoo",
-   "unit": null,
-   "deadline": "2026-11-13",
-   "university": "Åbo Akademi University",
-   "university_short": "Åbo Akademi",
    "category": "Other"
   },
   {
@@ -222,7 +195,7 @@
   {
    "title": "Network Designer",
    "url": "https://ats.talentadore.com/apply/verkkosuunnittelija/Dap9qJ?lang=en",
-   "unit": "Research and Innovation Services Research Funding Advisor or Senior Specialist Posted on 15.10.2026 Application deadline 15.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026 Project Manager Posted on 7.7.2026",
+   "unit": "Department of Physics Postdoctoral Researcher in Radiation Effects in Power Electronics Posted on 20.10.2026 Application deadline 20.11.2026 Department of Physics Postdoctoral Researcher in Accelerator-Based Neutron Physics for BNCT Posted on 19.10.2026 Application deadline 20.11.2026 Research and Innovation Services Research Funding Advisor or Senior Specialist Posted on 15.10.2026 Application deadline 15.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026 Project Manager Posted on 7.7.2026",
    "deadline": "2026-11-15",
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
@@ -240,7 +213,7 @@
   {
    "title": "Project Manager",
    "url": "https://ats.talentadore.com/apply/projektipaallikko/ZjaOwp?lang=en",
-   "unit": "Research and Innovation Services Research Funding Advisor or Senior Specialist Posted on 15.10.2026 Application deadline 15.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026",
+   "unit": "Department of Physics Postdoctoral Researcher in Radiation Effects in Power Electronics Posted on 20.10.2026 Application deadline 20.11.2026 Department of Physics Postdoctoral Researcher in Accelerator-Based Neutron Physics for BNCT Posted on 19.10.2026 Application deadline 20.11.2026 Research and Innovation Services Research Funding Advisor or Senior Specialist Posted on 15.10.2026 Application deadline 15.11.2026 Department of Biological and Environmental Science Doctoral Researcher in Evolutionary Biology Posted on 11.10.2026 Application deadline 15.11.2026",
    "deadline": "2026-11-15",
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
@@ -266,7 +239,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=tty83von11ws4c0ggco4wck0ogkocoo",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=89mbpogcfc4kggow0cg44gk8so8g840",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -275,7 +248,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=o68954j5t28k4k0w0sg8cckowk884go",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=aaeton52ciwokc0scgckg0g0wcogk8k",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -338,7 +311,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=o68954j5t28k4k0w0sg8cckowk884go",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=aaeton52ciwokc0scgckg0g0wcogk8k",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -455,7 +428,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=o68954j5t28k4k0w0sg8cckowk884go",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=aaeton52ciwokc0scgckg0g0wcogk8k",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -482,7 +455,7 @@
   },
   {
    "title": "Marknadsföringsassistent på deltid",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=o68954j5t28k4k0w0sg8cckowk884go",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=aaeton52ciwokc0scgckg0g0wcogk8k",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -509,7 +482,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=tty83von11ws4c0ggco4wck0ogkocoo",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=89mbpogcfc4kggow0cg44gk8so8g840",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -563,7 +536,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=tty83von11ws4c0ggco4wck0ogkocoo",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=89mbpogcfc4kggow0cg44gk8so8g840",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -643,6 +616,15 @@
    "category": "Doctoral"
   },
   {
+   "title": "ELSA-palvelupäällikkö, Oulun yliopisto, lääketieteellinen tiedekunta, Koulutuksen kehittämis- ja palveluyksikkö",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:989477/",
+   "unit": "Lääketieteellinen tiedekunta",
+   "deadline": "2026-11-27",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
    "title": "Assistant Professor, Power Electronics",
    "url": "https://www.aalto.fi/en/open-positions/assistant-professor-power-electronics",
    "unit": null,
@@ -653,7 +635,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=o68954j5t28k4k0w0sg8cckowk884go",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=aaeton52ciwokc0scgckg0g0wcogk8k",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -715,6 +697,24 @@
    "category": "Doctoral"
   },
   {
+   "title": "Doctoral researcher and/or Post-doctoral researcher on compound semiconductor energy converters",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-andor-post-doctoral-researcher-on-compound-semiconductor-energy-converters-0",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Koulutusassistentti (Lääketieteen ja terveysteknologian tiedekunta, MET)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3226",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Other"
+  },
+  {
    "title": "Laboratory Coordinator, Institute of Biomedicine",
    "url": "https://uef.varbi.com/en/what:job/jobID:982021/type:job/where:4/apply:1",
    "unit": "The Faculty of Health Sciences, Biomedicine, Kuopio",
@@ -748,15 +748,6 @@
    "deadline": "2026-11-30",
    "university": "University of Oulu",
    "university_short": "Oulu",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
-   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
-   "unit": null,
-   "deadline": "2026-11-30",
-   "university": "Aalto University",
-   "university_short": "Aalto",
    "category": "Postdoc"
   },
   {
@@ -806,7 +797,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=tty83von11ws4c0ggco4wck0ogkocoo",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=89mbpogcfc4kggow0cg44gk8so8g840",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -832,8 +823,17 @@
    "category": "Professor"
   },
   {
+   "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=sm5gxcfveyskwogcos0wc84gw8o0840",
+   "unit": null,
+   "deadline": "2026-12-03",
+   "university": "University of Vaasa",
+   "university_short": "Vaasa",
+   "category": "Doctoral"
+  },
+  {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=bhi2hclsxi8g48kcoowc8o4cg8wo4gc",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=sm5gxcfveyskwogcos0wc84gw8o0840",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -859,6 +859,33 @@
    "category": "Other"
   },
   {
+   "title": "Two Doctoral Researchers, Applied Language Studies",
+   "url": "https://ats.talentadore.com/apply/two-doctoral-researchers-applied-language-studies/DGy43g",
+   "unit": "Centre for Applied Language Studies",
+   "deadline": "2026-12-08",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Two Postdoctoral Researchers, Applied Language Studies",
+   "url": "https://ats.talentadore.com/apply/two-postdoctoral-researchers-applied-language-studies/ZLnvlb",
+   "unit": "Centre for Applied Language Studies",
+   "deadline": "2026-12-08",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Doctoral Researcher in Peatland Restoration Hydrology and Biogeochemistry",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:987425/",
+   "unit": "Faculty of Technology, Water, Energy and Environmental Engineering",
+   "deadline": "2026-12-13",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Doctoral"
+  },
+  {
    "title": "Postdoctoral Research Fellow in Economics / Tutkijatohtori (taloustiede)",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3215",
    "unit": null,
@@ -875,6 +902,24 @@
    "university": "Tampere University",
    "university_short": "Tampere",
    "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher in Hydrological and Ecosystem Modelling",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:987445/",
+   "unit": "Faculty of Technology, Water, Energy and Environmental Engineering",
+   "deadline": "2026-12-13",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Doctoral Researcher – Heterogeneous Integration for Power Electronics",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-heterogeneous-integration-for-power-electronics",
+   "unit": null,
+   "deadline": "2026-12-14",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
@@ -955,6 +1000,15 @@
    "deadline": "2027-01-04",
    "university": "Tampere University",
    "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Assistant Professor, Experimental Quantum Physics",
+   "url": "https://www.aalto.fi/en/open-positions/assistant-professor-experimental-quantum-physics",
+   "unit": null,
+   "deadline": "2027-01-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
    "category": "Professor"
   },
   {
