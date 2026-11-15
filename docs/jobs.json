@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14T12:08:36+00:00",
- "job_count": 106,
+ "generated_at": "2026-11-15T12:42:57+00:00",
+ "job_count": 107,
  "sources": [
   {
    "name": "University of Oulu",
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 23,
+   "count": 24,
    "verified": true
   },
   {
@@ -230,7 +230,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Information Technology, 1.1-31.12.2027",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=oid0gk009j4wkcgscw0sos0cg8c0kk0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1048&key=&o=A_RJ&rspvt=48n72f1pqekgcwso8oosg4cc8o00o8g",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Åbo Akademi University",
@@ -239,7 +239,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Sustainable and Resilient Freight Transport Systems",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=fgbhewebnh4ckww0o0ok0csk84ow4sk",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=406&key=&o=A_RJ&rspvt=cu6z4eioo1kwwk0gsow44s0ok8o8wo8",
    "unit": null,
    "deadline": "2026-11-16",
    "university": "Hanken School of Economics",
@@ -302,7 +302,7 @@
   },
   {
    "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=fgbhewebnh4ckww0o0ok0csk84ow4sk",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=cu6z4eioo1kwwk0gsow44s0ok8o8wo8",
    "unit": null,
    "deadline": "2026-11-17",
    "university": "Hanken School of Economics",
@@ -419,7 +419,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=fgbhewebnh4ckww0o0ok0csk84ow4sk",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=cu6z4eioo1kwwk0gsow44s0ok8o8wo8",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -446,7 +446,7 @@
   },
   {
    "title": "Marknadsföringsassistent på deltid",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=fgbhewebnh4ckww0o0ok0csk84ow4sk",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=cu6z4eioo1kwwk0gsow44s0ok8o8wo8",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -473,7 +473,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=oid0gk009j4wkcgscw0sos0cg8c0kk0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=48n72f1pqekgcwso8oosg4cc8o00o8g",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -527,7 +527,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=oid0gk009j4wkcgscw0sos0cg8c0kk0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=48n72f1pqekgcwso8oosg4cc8o00o8g",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -626,7 +626,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=fgbhewebnh4ckww0o0ok0csk84ow4sk",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=cu6z4eioo1kwwk0gsow44s0ok8o8wo8",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -670,6 +670,15 @@
    "category": "Doctoral"
   },
   {
+   "title": "Doctoral Researcher in condensed matter physics and two-dimensional (2D) Quantum Devices",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-condensed-matter-physics-and-two-dimensional-2d-quantum-devices",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
    "title": "Doctoral Researcher, Space Physics, Sodankylä Geophysical Observatory",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:982150/",
    "unit": "Service and separate units, Sodankylä Geophysical Observatory",
@@ -706,15 +715,6 @@
    "category": "Other"
   },
   {
-   "title": "Master´s thesis worker",
-   "url": "https://www.aalto.fi/en/open-positions/masters-thesis-worker",
-   "unit": null,
-   "deadline": "2026-11-30",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Other"
-  },
-  {
    "title": "Postdoctoral Researcher positions in Mathematics",
    "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-positions-in-mathematics/8ryxja",
    "unit": "Department of Mathematics and Statistics",
@@ -730,15 +730,6 @@
    "deadline": "2026-11-30",
    "university": "University of Oulu",
    "university_short": "Oulu",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Postdoctoral researcher in quantum algorithms and optimization for Life Science applications",
-   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-quantum-algorithms-and-optimization-for-life-science-applications-0",
-   "unit": null,
-   "deadline": "2026-11-30",
-   "university": "Aalto University",
-   "university_short": "Aalto",
    "category": "Postdoc"
   },
   {
@@ -778,8 +769,17 @@
    "category": "Other"
   },
   {
+   "title": "University Lecturer or Senior University Lecturer, Wood Science",
+   "url": "https://www.aalto.fi/en/open-positions/university-lecturer-or-senior-university-lecturer-wood-science",
+   "unit": null,
+   "deadline": "2026-11-30",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Teaching"
+  },
+  {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=oid0gk009j4wkcgscw0sos0cg8c0kk0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=48n72f1pqekgcwso8oosg4cc8o00o8g",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -806,7 +806,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=lv088fl559wccgk4kggsokg0cogws84",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=9dx5ekied7ggcooo8cgwkoog004kkw4",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -815,7 +815,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=lv088fl559wccgk4kggsokg0cogws84",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=9dx5ekied7ggcooo8cgwkoog004kkw4",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -1010,6 +1010,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Professor"
+  },
+  {
+   "title": "Business Developers in Deep Tech (R2B)",
+   "url": "https://www.aalto.fi/en/open-positions/business-developers-in-deep-tech-r2b",
+   "unit": null,
+   "deadline": "2027-01-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
   },
   {
    "title": "PhD Positions Available under the MSCA INSIGHT Doctoral Network | EURAXESS",
