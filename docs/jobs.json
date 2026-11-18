@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T14:19:52+00:00",
- "job_count": 99,
+ "generated_at": "2026-11-18T13:54:24+00:00",
+ "job_count": 100,
  "sources": [
   {
    "name": "University of Oulu",
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 24,
+   "count": 28,
    "verified": true
   },
   {
@@ -47,7 +47,7 @@
    "short": "UEF",
    "url": "https://www.uef.fi/en/open-positions",
    "status": "ok",
-   "count": 9,
+   "count": 7,
    "verified": true
   },
   {
@@ -63,7 +63,7 @@
    "short": "Hanken",
    "url": "https://hanken.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&lang=en",
    "status": "ok",
-   "count": 5,
+   "count": 4,
    "verified": true
   },
   {
@@ -102,33 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Biträdande professor (nivå 1 eller 2, tenure track) i nationalekonomi / Assistant or Associate Professor (Tenure Track) in Economics",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=407&key=&o=A_RJ&rspvt=1evufb5bea3oscskscgowk0skok4ck4",
-   "unit": null,
-   "deadline": "2026-11-17",
-   "university": "Hanken School of Economics",
-   "university_short": "Hanken",
-   "category": "Professor"
-  },
-  {
-   "title": "Doctoral Researcher (PhD Student), 3 positions, Development of Data Science and AI for Spatial Data",
-   "url": "https://uef.varbi.com/en/what:job/jobID:978704/type:job/where:4/apply:1",
-   "unit": "The Faculty of Science, Forestry and Technology, School of Computing, Kuopio",
-   "deadline": "2026-11-17",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Doctoral"
-  },
-  {
-   "title": "Professor/Associate Professor (Tenure Track), Arts and Skills Education",
-   "url": "https://uef.varbi.com/en/what:job/jobID:963628/type:job/where:4/apply:1",
-   "unit": "The Philosophical Faculty, School of Applied Educational Science and Teacher Education, Joensuu",
-   "deadline": "2026-11-17",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Professor"
-  },
   {
    "title": "Doctoral Researcher in Psychology",
    "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia/8dRoGG?lang=en",
@@ -221,7 +194,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=1evufb5bea3oscskscgowk0skok4ck4",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=9pnnl9g98xs0ws0www0ok4c4ws0o4k",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -248,7 +221,7 @@
   },
   {
    "title": "Marknadsföringsassistent på deltid",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=1evufb5bea3oscskscgowk0skok4ck4",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=9pnnl9g98xs0ws0www0ok4c4ws0o4k",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -275,7 +248,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=tktqipwsp6skcs4g4so4kogs4swww84",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=ofo79hkcxk0k0ks8ock0kc40oooo8gs",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -329,7 +302,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=tktqipwsp6skcs4g4so4kogs4swww84",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=ofo79hkcxk0k0ks8ock0kc40oooo8gs",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -437,7 +410,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=1evufb5bea3oscskscgowk0skok4ck4",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=9pnnl9g98xs0ws0www0ok4c4ws0o4k",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -617,7 +590,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=tktqipwsp6skcs4g4so4kogs4swww84",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=ofo79hkcxk0k0ks8ock0kc40oooo8gs",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -644,7 +617,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=k279as5q4vkocgwwg40cg8sogo0gk8s",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=iucd37uj3lcso8gow8sk88488g4wo4s",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -653,7 +626,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=k279as5q4vkocgwwg40cg8sogo0gk8s",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=iucd37uj3lcso8gow8sk88488g4wo4s",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -667,6 +640,15 @@
    "deadline": "2026-12-05",
    "university": "University of Oulu",
    "university_short": "Oulu",
+   "category": "Other"
+  },
+  {
+   "title": "Aalto Student Ambassador",
+   "url": "https://www.aalto.fi/en/open-positions/aalto-student-ambassador",
+   "unit": null,
+   "deadline": "2026-12-06",
+   "university": "Aalto University",
+   "university_short": "Aalto",
    "category": "Other"
   },
   {
@@ -868,6 +850,15 @@
    "category": "Researcher"
   },
   {
+   "title": "Staff Scientist",
+   "url": "https://www.aalto.fi/en/open-positions/staff-scientist-1",
+   "unit": null,
+   "deadline": "2026-12-16",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Researcher"
+  },
+  {
    "title": "Professor, Prosthetic Dentistry and Stomatognathic Physiology",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:985681/",
    "unit": "Faculty of Medicine, Population Health",
@@ -923,7 +914,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=1evufb5bea3oscskscgowk0skok4ck4",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=9pnnl9g98xs0ws0www0ok4c4ws0o4k",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
@@ -947,6 +938,15 @@
    "university": "Aalto University",
    "university_short": "Aalto",
    "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher in Biodiversity Economics",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-biodiversity-economics",
+   "unit": null,
+   "deadline": "2027-01-31",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
   },
   {
    "title": "Postdoctoral Researcher in the Economics of Information",
@@ -974,6 +974,15 @@
    "university": "Tampere University",
    "university_short": "Tampere",
    "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher in Urban Economics",
+   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-urban-economics",
+   "unit": null,
+   "deadline": "2027-02-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Postdoc"
   },
   {
    "title": "Visiting Researcher in Aalto University School of Arts, Design and Architecture (unfunded position)",
