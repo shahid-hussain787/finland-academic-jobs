@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-19T14:23:56+00:00",
- "job_count": 93,
+ "generated_at": "2026-11-20T13:58:54+00:00",
+ "job_count": 104,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 14,
+   "count": 17,
    "verified": true
   },
   {
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 29,
+   "count": 31,
    "verified": true
   },
   {
@@ -39,16 +39,15 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 25,
+   "count": 23,
    "verified": true
   },
   {
    "name": "University of Eastern Finland",
    "short": "UEF",
    "url": "https://www.uef.fi/en/open-positions",
-   "status": "error",
-   "count": 0,
-   "error": "RuntimeError: https://www.uef.fi/en/open-positions -> ReadTimeout: HTTPSConnectionPool(host='www.uef.fi', port=443): Read timed out. (read timeout=30)",
+   "status": "ok",
+   "count": 8,
    "verified": true
   },
   {
@@ -104,24 +103,6 @@
  ],
  "jobs": [
   {
-   "title": "Yliopisto-opettaja (Talotekniikka)",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3208",
-   "unit": null,
-   "deadline": "2026-11-19",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Teaching"
-  },
-  {
-   "title": "Yliopisto-opettaja (suomen kieli)",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3217",
-   "unit": null,
-   "deadline": "2026-11-19",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Teaching"
-  },
-  {
    "title": "Doctoral Researcher (Human-Centered Security and Digital Deception)",
    "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-human-centered-security-and-digital-deception",
    "unit": null,
@@ -168,7 +149,7 @@
   },
   {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=h7z3r36257kk0s0k04gws0c4sc0ws84",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -195,7 +176,7 @@
   },
   {
    "title": "Marknadsföringsassistent på deltid",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=h7z3r36257kk0s0k04gws0c4sc0ws84",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -222,7 +203,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=odgo3hs4wxwg4sos0008gk8cs80wcg4",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -237,6 +218,24 @@
    "university": "Tampere University",
    "university_short": "Tampere",
    "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher (Educational Sciences and Psychology)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:986428/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, Joensuu",
+   "deadline": "2026-11-24",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Postdoctoral Researcher (Humanities and Theology)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:986407/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, Joensuu",
+   "deadline": "2026-11-24",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Postdoc"
   },
   {
    "title": "Research Director, Sports and Exercise Laboratory",
@@ -258,7 +257,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=odgo3hs4wxwg4sos0008gk8cs80wcg4",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -366,12 +365,21 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=h7z3r36257kk0s0k04gws0c4sc0ws84",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
    "university_short": "Hanken",
    "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher (PhD student),Pathomechanisms and Novel Drug Optimization for AMD (MSCA-DN)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:988006/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, School of Pharmacy, Kuopio",
+   "deadline": "2026-11-30",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher (Railway wheel friction estimation and control) / Väitöskirjatutkija (rautatien pyörän kitkan estimointi ja hallinta)",
@@ -446,6 +454,15 @@
    "category": "Other"
   },
   {
+   "title": "Laboratory Coordinator, Institute of Biomedicine",
+   "url": "https://uef.varbi.com/en/what:job/jobID:982021/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, Biomedicine, Kuopio",
+   "deadline": "2026-11-30",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Other"
+  },
+  {
    "title": "Master´s thesis worker",
    "url": "https://www.aalto.fi/en/open-positions/masters-thesis-worker",
    "unit": null,
@@ -456,7 +473,7 @@
   },
   {
    "title": "Opetusavustaja, viestintätieteet",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1151&key=&o=A_RJ&rspvt=sz0u93q23mswo8gcw0cs480o4c8c448",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1151&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "University of Vaasa",
@@ -537,7 +554,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=odgo3hs4wxwg4sos0008gk8cs80wcg4",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -545,8 +562,26 @@
    "category": "Other"
   },
   {
+   "title": "Associate Professor (Tenure Track), Data-Intensive Humanities",
+   "url": "https://uef.varbi.com/en/what:job/jobID:973504/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, School of Humanities, Joensuu",
+   "deadline": "2026-12-03",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Professor"
+  },
+  {
+   "title": "Professor, English Language and Translation",
+   "url": "https://uef.varbi.com/en/what:job/jobID:973614/type:job/where:4/apply:1",
+   "unit": "The Philosophical Faculty, School of Humanities, Joensuu",
+   "deadline": "2026-12-03",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Professor"
+  },
+  {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=sz0u93q23mswo8gcw0cs480o4c8c448",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -555,12 +590,30 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=sz0u93q23mswo8gcw0cs480o4c8c448",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
    "university_short": "Vaasa",
    "category": "Teaching"
+  },
+  {
+   "title": "Project Researcher, Computational Neuroanatomy",
+   "url": "https://uef.varbi.com/en/what:job/jobID:990989/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, A.I. Virtanen Institute, Kuopio",
+   "deadline": "2026-12-04",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Researcher"
+  },
+  {
+   "title": "Teaching assistants in EEA deparment for spring 2027",
+   "url": "https://www.aalto.fi/en/open-positions/teaching-assistants-in-eea-deparment-for-spring-2027",
+   "unit": null,
+   "deadline": "2026-12-04",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Other"
   },
   {
    "title": "Specialist (grant writer)",
@@ -588,6 +641,15 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Other"
+  },
+  {
+   "title": "Postdoctoral Researcher, Computational Engineering",
+   "url": "https://uef.varbi.com/en/what:job/jobID:992569/type:job/where:4/apply:1",
+   "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
+   "deadline": "2026-12-07",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Postdoc"
   },
   {
    "title": "Two Doctoral Researchers, Applied Language Studies",
@@ -779,6 +841,15 @@
    "category": "Postdoc"
   },
   {
+   "title": "Postdoctoral Researcher, Nano and Molecular Systems",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:993195/",
+   "unit": "Faculty of Science, Nano and Molecular Systems",
+   "deadline": "2026-12-15",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Postdoc"
+  },
+  {
    "title": "Staff Scientist in Quantum & Cryogenic RF Measurements",
    "url": "https://ats.talentadore.com/apply/staff-scientist-in-quantum-cryogenic-rf-measurements/m5nkO4",
    "unit": "Department of Physics",
@@ -797,6 +868,15 @@
    "category": "Researcher"
   },
   {
+   "title": "Assistant Professor, Finance",
+   "url": "https://www.aalto.fi/en/open-positions/assistant-professor-finance",
+   "unit": null,
+   "deadline": "2026-12-20",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Professor"
+  },
+  {
    "title": "Professor, Prosthetic Dentistry and Stomatognathic Physiology",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:985681/",
    "unit": "Faculty of Medicine, Population Health",
@@ -804,6 +884,24 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Professor"
+  },
+  {
+   "title": "Yliopisto-opettaja/yliopistonlehtori, suukirurgia",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:992116/",
+   "unit": "Lääketieteellinen tiedekunta, Väestöterveys",
+   "deadline": "2026-12-21",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Teaching"
+  },
+  {
+   "title": "Yliopisto-opettaja/yliopistonlehtori/yliopistotutkija, suupatologia",
+   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:992087/",
+   "unit": "Lääketieteellinen tiedekunta, Väestöterveys",
+   "deadline": "2026-12-21",
+   "university": "University of Oulu",
+   "university_short": "Oulu",
+   "category": "Researcher"
   },
   {
    "title": "Doctoral Researcher in Physics-Enhanced Machine Learning for Floating Offshore Wind Digital Twins",
@@ -852,7 +950,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=h7z3r36257kk0s0k04gws0c4sc0ws84",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
