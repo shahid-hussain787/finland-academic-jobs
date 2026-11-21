@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T13:58:54+00:00",
- "job_count": 104,
+ "generated_at": "2026-11-21T13:26:23+00:00",
+ "job_count": 99,
  "sources": [
   {
    "name": "University of Oulu",
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 31,
+   "count": 30,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 23,
+   "count": 22,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 15,
+   "count": 12,
    "verified": true
   },
   {
@@ -103,53 +103,8 @@
  ],
  "jobs": [
   {
-   "title": "Doctoral Researcher (Human-Centered Security and Digital Deception)",
-   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-human-centered-security-and-digital-deception",
-   "unit": null,
-   "deadline": "2026-11-20",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Doctoral"
-  },
-  {
-   "title": "Doctoral Researcher in Psychology and Cognitive neuroscience",
-   "url": "https://ats.talentadore.com/apply/vaitoskirjatutkija-psykologia-ja-kognitiivinen-neurotiede/Zy1dQ7?lang=en",
-   "unit": null,
-   "deadline": "2026-11-20",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Doctoral"
-  },
-  {
-   "title": "Postdoctoral Researcher in Accelerator-Based Neutron Physics for BNCT",
-   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-accelerator-based-neutron-physics-for-bnct/Dgd54N",
-   "unit": "Department of Physics",
-   "deadline": "2026-11-20",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Postdoctoral Researcher in Radiation Effects in Power Electronics",
-   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-radiation-effects-in-power-electronics/Dw1E7q",
-   "unit": "Department of Physics",
-   "deadline": "2026-11-20",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Yliopisto-opettaja (suomi toisena kielenä)",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3225",
-   "unit": null,
-   "deadline": "2026-11-20",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Teaching"
-  },
-  {
    "title": "Assistant Professor (tenure-track) in Finance / Biträdande professor (nivå 1) i finansiell ekonomi (tenure track)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=405&key=&o=A_RJ&rspvt=ff2l2wq6s9c8sgwwcsokwcw88gwg8k0",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -176,7 +131,7 @@
   },
   {
    "title": "Marknadsföringsassistent på deltid",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=409&key=&o=A_RJ&rspvt=ff2l2wq6s9c8sgwwcsokwcw88gwg8k0",
    "unit": null,
    "deadline": "2026-11-22",
    "university": "Hanken School of Economics",
@@ -203,7 +158,7 @@
   },
   {
    "title": "Senior controller",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1051&key=&o=A_RJ&rspvt=1sv5onegc5hc4c4888oc44000sw444s",
    "unit": null,
    "deadline": "2026-11-23",
    "university": "Åbo Akademi University",
@@ -257,7 +212,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=1sv5onegc5hc4c4888oc44000sw444s",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -365,7 +320,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=ff2l2wq6s9c8sgwwcsokwcw88gwg8k0",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -473,7 +428,7 @@
   },
   {
    "title": "Opetusavustaja, viestintätieteet",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1151&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1151&key=&o=A_RJ&rspvt=fynuonjp5jk8g084sccg0wwwcg0wsoo",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "University of Vaasa",
@@ -554,7 +509,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=pow3kd3a85cw4w8c8084gkccs0g88s0",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=1sv5onegc5hc4c4888oc44000sw444s",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -581,7 +536,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=fynuonjp5jk8g084sccg0wwwcg0wsoo",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -590,7 +545,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=ac10bcjjku0w8k8c0c0cwo4ogcoc00w",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=fynuonjp5jk8g084sccg0wwwcg0wsoo",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -950,7 +905,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=rd6qhvnlkg040o8s00kgo08c0k0wo4w",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=ff2l2wq6s9c8sgwwcsokwcw88gwg8k0",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
