@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:55:49+00:00",
+ "generated_at": "2026-11-24T15:48:23+00:00",
  "job_count": 93,
  "sources": [
   {
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 28,
+   "count": 26,
    "verified": true
   },
   {
@@ -23,7 +23,7 @@
    "short": "Vaasa",
    "url": "https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en",
    "status": "ok",
-   "count": 2,
+   "count": 3,
    "verified": true
   },
   {
@@ -63,7 +63,7 @@
    "short": "Hanken",
    "url": "https://hanken.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&lang=en",
    "status": "ok",
-   "count": 2,
+   "count": 3,
    "verified": true
   },
   {
@@ -102,15 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "President, Aalto University",
-   "url": "https://www.aalto.fi/en/open-positions/president-aalto-university",
-   "unit": null,
-   "deadline": "2026-11-23",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Other"
-  },
   {
    "title": "Markkinoinnin asiantuntija",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3212",
@@ -158,7 +149,7 @@
   },
   {
    "title": "Sekreterare",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=fmx0r8m4yyo008osk044s8c0sow0804",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1054&key=&o=A_RJ&rspvt=oirwjhi2vn4o0444kgk8wokkkksgkkg",
    "unit": null,
    "deadline": "2026-11-25",
    "university": "Åbo Akademi University",
@@ -266,7 +257,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=jm8kzuagrsow4gcwo4w4gw08g0k444g",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=5a84b5vo0dssw4880ss4ws80gkgsg00",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -446,7 +437,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=fmx0r8m4yyo008osk044s8c0sow0804",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=oirwjhi2vn4o0444kgk8wokkkksgkkg",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -473,7 +464,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=hl5raoosuio0cwo808w0coccss4ckw4",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=g0dem784u7coc8sk4swksgwsw0ow8o4",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -482,7 +473,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=hl5raoosuio0cwo808w0coccss4ckw4",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=g0dem784u7coc8sk4swksgwsw0ow8o4",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -569,6 +560,15 @@
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
    "category": "Postdoc"
+  },
+  {
+   "title": "IT-suunnittelupäällikkö",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1152&key=&o=A_RJ&rspvt=g0dem784u7coc8sk4swksgwsw0ow8o4",
+   "unit": null,
+   "deadline": "2026-12-09",
+   "university": "University of Vaasa",
+   "university_short": "Vaasa",
+   "category": "Other"
   },
   {
    "title": "Network Designer",
@@ -859,8 +859,17 @@
    "category": "Postdoc"
   },
   {
+   "title": "Lektor/Universitetslektor i Marknadsföring (tenure track), Universitetslärare i Marknadsföring (tidsbunden)",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=411&key=&o=A_RJ&rspvt=5a84b5vo0dssw4880ss4ws80gkgsg00",
+   "unit": null,
+   "deadline": "2027-01-21",
+   "university": "Hanken School of Economics",
+   "university_short": "Hanken",
+   "category": "Professor"
+  },
+  {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=jm8kzuagrsow4gcwo4w4gw08g0k444g",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=5a84b5vo0dssw4880ss4ws80gkgsg00",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
@@ -879,15 +888,6 @@
   {
    "title": "Postdoctoral Researcher in Biodiversity Economics",
    "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-biodiversity-economics",
-   "unit": null,
-   "deadline": "2027-01-31",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Postdoctoral Researcher in the Economics of Information",
-   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-the-economics-of-information",
    "unit": null,
    "deadline": "2027-01-31",
    "university": "Aalto University",
