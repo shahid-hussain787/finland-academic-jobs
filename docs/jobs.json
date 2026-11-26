@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T15:31:59+00:00",
- "job_count": 93,
+ "generated_at": "2026-11-26T15:06:03+00:00",
+ "job_count": 97,
  "sources": [
   {
    "name": "University of Oulu",
@@ -15,7 +15,7 @@
    "short": "Aalto",
    "url": "https://www.aalto.fi/en/open-positions",
    "status": "ok",
-   "count": 30,
+   "count": 31,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 20,
+   "count": 22,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 12,
+   "count": 13,
    "verified": true
   },
   {
@@ -102,15 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Founder Sprint Operator, Aalto Founder School",
-   "url": "https://www.aalto.fi/en/open-positions/founder-sprint-operator-aalto-founder-school",
-   "unit": null,
-   "deadline": "2026-11-25",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Other"
-  },
   {
    "title": "Postdoctoral Researcher, Environmental Social Sciences and Digital Infrastructures",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974579/",
@@ -212,21 +203,12 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=aj6e3n0kids84ogc4oskwwgkog4ww4k",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
    "university_short": "Hanken",
    "category": "Professor"
-  },
-  {
-   "title": "Doctoral Researcher (PhD student),Pathomechanisms and Novel Drug Optimization for AMD (MSCA-DN)",
-   "url": "https://uef.varbi.com/en/what:job/jobID:988006/type:job/where:4/apply:1",
-   "unit": "The Faculty of Health Sciences, School of Pharmacy, Kuopio",
-   "deadline": "2026-11-30",
-   "university": "University of Eastern Finland",
-   "university_short": "UEF",
-   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher (Railway wheel friction estimation and control) / Väitöskirjatutkija (rautatien pyörän kitkan estimointi ja hallinta)",
@@ -392,7 +374,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=t36k0p89tvk0wkgk4oc40ck4kcg0ggk",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=qzpfhcdzso0k08c4owgg848sgc8wwco",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -419,7 +401,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=91eieqjcc6kosok0w4gk4k80ogcwsg0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -428,7 +410,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=91eieqjcc6kosok0w4gk4k80ogcwsg0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -527,7 +509,7 @@
   },
   {
    "title": "IT-suunnittelupäällikkö",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1152&key=&o=A_RJ&rspvt=91eieqjcc6kosok0w4gk4k80ogcwsg0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1152&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
    "unit": null,
    "deadline": "2026-12-09",
    "university": "University of Vaasa",
@@ -607,6 +589,15 @@
    "category": "Professor"
   },
   {
+   "title": "Doctoral Researcher (PhD student),Pathomechanisms and Novel Drug Optimization for AMD (MSCA-DN)",
+   "url": "https://uef.varbi.com/en/what:job/jobID:988006/type:job/where:4/apply:1",
+   "unit": "The Faculty of Health Sciences, School of Pharmacy, Kuopio",
+   "deadline": "2026-12-14",
+   "university": "University of Eastern Finland",
+   "university_short": "UEF",
+   "category": "Doctoral"
+  },
+  {
    "title": "Doctoral Researcher – Heterogeneous Integration for Power Electronics",
    "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-heterogeneous-integration-for-power-electronics",
    "unit": null,
@@ -652,6 +643,24 @@
    "category": "Doctoral"
   },
   {
+   "title": "Doctoral Researcher in Risk Assessment for Offshore Wind Energy Installations and Winter Navigation Ship Operations",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-risk-assessment-for-offshore-wind-energy-installations-and-winter-navigation",
+   "unit": null,
+   "deadline": "2026-12-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher in future ice conditions related risks on offshore wind and related energy systems",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-future-ice-conditions-related-risks-on-offshore-wind-and-related-energy",
+   "unit": null,
+   "deadline": "2026-12-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
    "title": "Doctoral Researcher, Textile Chemistry",
    "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-textile-chemistry-0",
    "unit": null,
@@ -663,6 +672,15 @@
   {
    "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
    "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network",
+   "unit": null,
+   "deadline": "2026-12-15",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral researcher in cascading energy system risk pathways related to climate change impacts on offshore wind energy",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-cascading-energy-system-risk-pathways-related-to-climate-change-impacts-on",
    "unit": null,
    "deadline": "2026-12-15",
    "university": "Aalto University",
@@ -697,15 +715,6 @@
    "category": "Postdoc"
   },
   {
-   "title": "Postdoctoral Researcher in Semiconductor Electrical Characterization and Thin-Film Metrology",
-   "url": "https://www.aalto.fi/en/open-positions/postdoctoral-researcher-in-semiconductor-electrical-characterization-and-thin-film-metrology",
-   "unit": null,
-   "deadline": "2026-12-15",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Postdoc"
-  },
-  {
    "title": "Postdoctoral Researcher, Nano and Molecular Systems",
    "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:993195/",
    "unit": "Faculty of Science, Nano and Molecular Systems",
@@ -722,6 +731,15 @@
    "university": "University of Jyväskylä",
    "university_short": "Jyväskylä",
    "category": "Researcher"
+  },
+  {
+   "title": "Doctoral Researcher in X-ray Imaging of Fungal Decay and Moisture Transport in Wood",
+   "url": "https://ats.talentadore.com/apply/doctoral-researcher-in-x-ray-imaging-of-fungal-decay-and-moisture-transport-in-wood/mXwGXd",
+   "unit": "Department of Physics",
+   "deadline": "2026-12-16",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
   },
   {
    "title": "Staff Scientist",
@@ -841,8 +859,26 @@
    "category": "Doctoral"
   },
   {
+   "title": "Tenure track position, Information Security (Assistant Professor, Associate Professor, or Professor), 2 positions / Tenure track -tehtävät, tietoturva, 2 tehtävää",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3238",
+   "unit": null,
+   "deadline": "2027-01-14",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
+   "title": "Tenure track position, Information Security (Assistant Professor, Associate Professor, or Professor), 2 positions / Tenure track -tehtävät, tietoturva, 2 tehtävää",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3238",
+   "unit": null,
+   "deadline": "2027-01-14",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Professor"
+  },
+  {
    "title": "Lektor/Universitetslektor i Marknadsföring (tenure track), Universitetslärare i Marknadsföring (tidsbunden)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=411&key=&o=A_RJ&rspvt=aj6e3n0kids84ogc4oskwwgkog4ww4k",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=411&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
    "unit": null,
    "deadline": "2027-01-21",
    "university": "Hanken School of Economics",
@@ -851,7 +887,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=aj6e3n0kids84ogc4oskwwgkog4ww4k",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
