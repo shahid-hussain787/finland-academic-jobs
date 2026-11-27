@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-26T15:06:03+00:00",
- "job_count": 97,
+ "generated_at": "2026-11-27T14:59:05+00:00",
+ "job_count": 98,
  "sources": [
   {
    "name": "University of Oulu",
    "short": "Oulu",
    "url": "https://oulunyliopisto.varbi.com/en/",
    "status": "ok",
-   "count": 17,
+   "count": 16,
    "verified": true
   },
   {
@@ -39,7 +39,7 @@
    "short": "Tampere",
    "url": "https://www.tuni.fi/en/about-us/working-at-tampere-universities/open-positions-at-tampere-university",
    "status": "ok",
-   "count": 22,
+   "count": 23,
    "verified": true
   },
   {
@@ -55,7 +55,7 @@
    "short": "Jyväskylä",
    "url": "https://www.jyu.fi/en/about-us/work-with-us/current-vacancies-at-the-university-of-jyvaskyla",
    "status": "ok",
-   "count": 13,
+   "count": 14,
    "verified": true
   },
   {
@@ -102,51 +102,6 @@
   }
  ],
  "jobs": [
-  {
-   "title": "Postdoctoral Researcher, Environmental Social Sciences and Digital Infrastructures",
-   "url": "https://oulunyliopisto.varbi.com/en/what:job/jobID:974579/",
-   "unit": "Faculty of Education and Psychology, General Education",
-   "deadline": "2026-11-26",
-   "university": "University of Oulu",
-   "university_short": "Oulu",
-   "category": "Postdoc"
-  },
-  {
-   "title": "Project Researcher",
-   "url": "https://ats.talentadore.com/apply/projektitutkija/8VXpbx?lang=en",
-   "unit": "Department of Education",
-   "deadline": "2026-11-26",
-   "university": "University of Jyväskylä",
-   "university_short": "Jyväskylä",
-   "category": "Researcher"
-  },
-  {
-   "title": "Tenure track position (Urban planning and transitions) / Tenure track -tehtävä (Yhdyskuntasuunnittelu)",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3213",
-   "unit": null,
-   "deadline": "2026-11-26",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Professor"
-  },
-  {
-   "title": "Tenure track position (Urban planning and transitions) / Tenure track -tehtävä (Yhdyskuntasuunnittelu)",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3213",
-   "unit": null,
-   "deadline": "2026-11-26",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Professor"
-  },
-  {
-   "title": "Tietoasiantuntija, Opetus- ja neuvontapalvelut -tiimiin",
-   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3214",
-   "unit": null,
-   "deadline": "2026-11-26",
-   "university": "Tampere University",
-   "university_short": "Tampere",
-   "category": "Other"
-  },
   {
    "title": "Assistant Professor (Tenure-track) in Economics / Apulaisprofessori (tenure track), taloustiede",
    "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3205",
@@ -203,7 +158,7 @@
   },
   {
    "title": "Assistant Professor (tenure track) in Management & Organisation / Biträdande professor (tenure track, nivå 1) i företagsledning och organisation",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=397&key=&o=A_RJ&rspvt=ppd2q3knbe8s8owcwg0skkck8gwwc0g",
    "unit": null,
    "deadline": "2026-11-30",
    "university": "Hanken School of Economics",
@@ -374,7 +329,7 @@
   },
   {
    "title": "Dataskyddsombud",
-   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=qzpfhcdzso0k08c4owgg848sgc8wwco",
+   "url": "https://abo.rekrytointi.com/paikat/index.php?jid=1055&key=&o=A_RJ&rspvt=61murc60284kc8g088c0csg44kskgc8",
    "unit": null,
    "deadline": "2026-12-01",
    "university": "Åbo Akademi University",
@@ -401,7 +356,7 @@
   },
   {
    "title": "Project Researcher (PhD. Student), Vibration and Control (Energy Technology)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1145&key=&o=A_RJ&rspvt=4k82krx439mo8swc4kc8wkc0wskwwsk",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -410,7 +365,7 @@
   },
   {
    "title": "Yliopisto-opettaja tai yliopistonlehtori (Tietojärjestelmätiede)",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1139&key=&o=A_RJ&rspvt=4k82krx439mo8swc4kc8wkc0wskwwsk",
    "unit": null,
    "deadline": "2026-12-03",
    "university": "University of Vaasa",
@@ -472,6 +427,15 @@
    "category": "Other"
   },
   {
+   "title": "Doctoral Researcher, Textile Chemistry",
+   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-textile-chemistry-0",
+   "unit": null,
+   "deadline": "2026-12-07",
+   "university": "Aalto University",
+   "university_short": "Aalto",
+   "category": "Doctoral"
+  },
+  {
    "title": "Postdoctoral Researcher, Computational Engineering",
    "url": "https://uef.varbi.com/en/what:job/jobID:992569/type:job/where:4/apply:1",
    "unit": "The Faculty of Science, Forestry and Technology, Department of Technical Physics, Kuopio",
@@ -509,7 +473,7 @@
   },
   {
    "title": "IT-suunnittelupäällikkö",
-   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1152&key=&o=A_RJ&rspvt=9sxgyzxi9wkkoskg040g4wcg88wk4w0",
+   "url": "https://uva.rekrytointi.com/paikat/index.php?jid=1152&key=&o=A_RJ&rspvt=4k82krx439mo8swc4kc8wkc0wskwwsk",
    "unit": null,
    "deadline": "2026-12-09",
    "university": "University of Vaasa",
@@ -661,15 +625,6 @@
    "category": "Doctoral"
   },
   {
-   "title": "Doctoral Researcher, Textile Chemistry",
-   "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-textile-chemistry-0",
-   "unit": null,
-   "deadline": "2026-12-15",
-   "university": "Aalto University",
-   "university_short": "Aalto",
-   "category": "Doctoral"
-  },
-  {
    "title": "Doctoral researcher in Adaptive Grid-Interactive Edge Datacenter Fleets (MSCA Doctoral Network)",
    "url": "https://www.aalto.fi/en/open-positions/doctoral-researcher-in-adaptive-grid-interactive-edge-datacenter-fleets-msca-doctoral-network",
    "unit": null,
@@ -767,6 +722,24 @@
    "university": "University of Oulu",
    "university_short": "Oulu",
    "category": "Professor"
+  },
+  {
+   "title": "Doctoral Researcher (Multiscale testing and simulation of fibre reinforced composites) / Väitöskirjatutkija (Kuitulujitettujen komposiittien moniskaalainen testaus ja simulointi)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3241",
+   "unit": null,
+   "deadline": "2026-12-21",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher (Multiscale testing and simulation of fibre reinforced composites) / Väitöskirjatutkija (Kuitulujitettujen komposiittien moniskaalainen testaus ja simulointi)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3241",
+   "unit": null,
+   "deadline": "2026-12-21",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
   },
   {
    "title": "Doctoral Researcher (PhD Student), Plant Molecular Physiology in Forest Ecosystems",
@@ -877,8 +850,44 @@
    "category": "Professor"
   },
   {
+   "title": "Doctoral Researcher in Experimental Nuclear Physics",
+   "url": "https://ats.talentadore.com/apply/doctoral-researcher-in-experimental-nuclear-physics/m7lMLn",
+   "unit": "Department of Physics",
+   "deadline": "2027-01-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Postdoctoral Researcher in Experimental Nuclear Physics",
+   "url": "https://ats.talentadore.com/apply/postdoctoral-researcher-in-experimental-nuclear-physics/Zvn9E0",
+   "unit": "Department of Physics",
+   "deadline": "2027-01-15",
+   "university": "University of Jyväskylä",
+   "university_short": "Jyväskylä",
+   "category": "Postdoc"
+  },
+  {
+   "title": "Doctoral Researcher (Software Engineering, DataOps and MLOps) / Väitöskirjatutkija (ohjelmistotuotanto, DataOps ja MLOps)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=3&jid=3239",
+   "unit": null,
+   "deadline": "2027-01-18",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
+  },
+  {
+   "title": "Doctoral Researcher (Software Engineering, DataOps and MLOps) / Väitöskirjatutkija (ohjelmistotuotanto, DataOps ja MLOps)",
+   "url": "https://tuni.rekrytointi.com/paikat/?o=A_RJ&jgid=1&jid=3239",
+   "unit": null,
+   "deadline": "2027-01-18",
+   "university": "Tampere University",
+   "university_short": "Tampere",
+   "category": "Doctoral"
+  },
+  {
    "title": "Lektor/Universitetslektor i Marknadsföring (tenure track), Universitetslärare i Marknadsföring (tidsbunden)",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=411&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=411&key=&o=A_RJ&rspvt=ppd2q3knbe8s8owcwg0skkck8gwwc0g",
    "unit": null,
    "deadline": "2027-01-21",
    "university": "Hanken School of Economics",
@@ -887,7 +896,7 @@
   },
   {
    "title": "Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader",
-   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=26dnkkiztskgksw8gss0ccs80cssgsg",
+   "url": "https://hanken.rekrytointi.com/paikat/index.php?jid=410&key=&o=A_RJ&rspvt=ppd2q3knbe8s8owcwg0skkck8gwwc0g",
    "unit": null,
    "deadline": "2027-01-24",
    "university": "Hanken School of Economics",
